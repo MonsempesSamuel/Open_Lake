@@ -1,0 +1,187 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: challenge-service
+spec:
+  ports:
+    - port: 80
+      targetPort: 8089
+  selector:
+    acme.cert-manager.io/http01-solver: 'true'
+---
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: letsencrypt-prod
+  namespace: test2
+spec:
+  acme:
+    # The ACME server URL
+    server: https://acme-v02.api.letsencrypt.org/directory
+    # Email address used for ACME registration
+    email: guillaume.fernandez@grenoble-inp.org
+    # Name of a secret used to store the ACME account private key
+    privateKeySecretRef:
+      name: letsencrypt-prod
+    # Enable the HTTP-01 challenge provider
+    solvers:
+    - http01:
+        ingress:
+          class: nginx
+---
+apiVersion: cert-manager.io/v1
+kind: Issuer
+metadata:
+  name: letsencrypt-staging
+  namespace: test2
+spec:
+  acme:
+    # The ACME server URL
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    # Email address used for ACME registration
+    email: guillaume.fernandez@grenoble-inp.org
+    # Name of a secret used to store the ACME account private key
+    privateKeySecretRef:
+      name: letsencrypt-staging
+    # Enable the HTTP-01 challenge provider
+    solvers:
+    - http01:
+        ingress:
+          class:  nginx
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-openlake-frontend
+  namespace: test2
+  annotations:
+    nginx.ingress.kubernetes.io/proxy-body-size: "0"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "10800"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "10800"
+    cert-manager.io/issuer: "letsencrypt-prod"
+spec:
+  tls:
+  - hosts:
+    - "open-lake.fr"
+    secretName: quickstart-example-tls
+  rules:
+  - host: "open-lake.fr"
+    http:
+      paths:
+        - path: /
+          pathType: Prefix
+          backend:
+            service:
+              name: svc-openlake-nginx
+              port:
+                number: 4569
+        - path: /.well-known/acme-challenge/
+          pathType: Prefix
+          backend:
+            service:
+              name: challenge-service
+              port:
+                number: 8089
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-openlake-nginx
+  namespace: test2
+spec:
+  type: NodePort
+  ports:
+  - port: 4569
+    targetPort: 4569
+  selector:
+    app: openlake-nginx
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-openlake-nginx
+  namespace: test2
+  labels:
+    app: openlake-nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openlake-nginx
+  template:
+    metadata:
+      labels:
+        app: openlake-nginx
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      containers:
+      - name: openlake-nginx
+        image: gitlab.ensimag.fr:5050/monsemps/open-lake-health/openlake-nginx
+        # command: ["/bin/sh"]
+        # args: ["-c", "while true; do echo hello; sleep 10;done"]
+        # args: ["/home/django/venv/bin/gunicorn", "OpenLakeAPIs.wsgi:application", "--bind", "0.0.0.0:4569"]
+        resources:
+          requests:
+            memory: "128Mi" #128Mi
+            cpu: "100m"
+          limits:
+            memory: "1024Mi" #1024Mi
+            cpu: "2000m"
+        ports:
+        - containerPort: 4569
+        # env:
+        #   - name: DEBUG
+        #     value: "0"
+        #   - name: SECRET_KEY
+        #     value: change_me
+        #   - name: DJANGO_ALLOWED_HOSTS
+        #     value: localhost 127.0.0.1 [::1]
+        #   - name: SQL_ENGINE
+        #     value: django.db.backends.postgresql
+        #   - name: SQL_DATABASE
+        #     value: openlake
+        #   - name: SQL_USER
+        #     value: openlake
+        #   - name: SQL_PASSWORD
+        #     value: openlake
+        #   - name: SQL_HOST
+        #     value: svc-openlake-backend
+        #   - name: SQL_PORT
+        #     value: "5432"
+        #   - name: DATABASE
+        #     value: postgres
+        volumeMounts: # Step 3: Mounting volume obtained from Persistent Volume Claim
+        - name: pv-openlake-frontend
+          mountPath: /home/django/OpenLakeAPIs/staticfiles
+        - name: pv-nginx-openlake-conf
+          mountPath: /etc/nginx/conf.d/default.conf
+          subPath: default.conf
+        - name: pv-nginx-modsecurity-conf
+          mountPath: /etc/nginx/modsec/modsecurity.conf
+          subPath: modsecurity.conf
+        - name: pv-nginx-modsec-main-conf
+          mountPath: /etc/nginx/modsec/main.conf
+          subPath: main.conf
+        - name: pv-nginx-conf
+          mountPath: /etc/nginx/nginx.conf
+          subPath: nginx.conf
+      volumes: #Step 2: Obtain it and name it as 'name'
+      - name: pv-openlake-frontend
+        persistentVolumeClaim: #Step 1: Ask for a volume
+          claimName: pvc-openlake-frontend
+      - name: pv-nginx-openlake-conf
+        configMap:
+          name: configmap-nginx-openlake-conf
+      - name: pv-nginx-modsecurity-conf
+        configMap:
+          name: configmap-nginx-modsecurity-conf
+      - name: pv-nginx-modsec-main-conf
+        configMap:
+          name: configmap-nginx-modsec-main-conf
+      - name: pv-nginx-conf
+        configMap:
+          name: configmap-nginx-conf
+
+

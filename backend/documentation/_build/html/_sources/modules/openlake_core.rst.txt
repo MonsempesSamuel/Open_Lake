@@ -1,0 +1,21 @@
+OpenLake Core module
+====================
+
+.. automodule:: openlake_core.models
+   :members:
+   :show-inheritance:
+
+.. automodule:: openlake_core.views
+   :members:
+   :undoc-members:
+~
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   about-us.rst
+   views.rst
+   models.rst
+

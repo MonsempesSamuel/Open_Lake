@@ -1,0 +1,906 @@
+nom du projet;nom du site;nom de la plateforme;outil de mesure;commentaire sonde;date de prélèvement;heure;profondeur réelle observée (m);cond25degres (ms/cm);oxygene mg (mg/l);ph brut (nounit);ph tc (nounit);Température (°c)
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.391;89.8;12.88;;8.82;8.932
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.393;89.8;12.88;;8.82;8.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.397;89.8;12.88;;8.82;8.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.404;89.8;12.88;;8.82;8.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.413;89.8;12.88;;8.82;8.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.424;89.8;12.88;;8.82;8.932
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.433;89.8;12.88;;8.82;8.932
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.442;89.8;12.88;;8.82;8.933
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.452;89.8;12.88;;8.82;8.933
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.464;89.8;12.88;;8.82;8.933
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.474;89.8;12.88;;8.82;8.934
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.484;89.8;12.88;;8.82;8.934
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.497;89.8;12.88;;8.82;8.934
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.512;89.8;12.88;;8.82;8.935
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.532;89.8;12.88;;8.82;8.936
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;0.55;89.8;12.88;;8.82;8.936
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.299;89.8;12.88;;8.82;8.937
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.396;89.8;12.88;;8.82;8.937
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.537;89.8;12.88;;8.82;8.937
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.6;89.8;12.88;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.625;89.8;12.88;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.669;89.8;12.88;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.713;89.8;12.88;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.75;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.78;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.818;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.854;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.892;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.925;89.8;12.88;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;1.963;89.8;12.87;;8.82;8.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.006;89.8;12.87;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.049;89.8;12.88;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.103;89.9;12.87;;8.82;8.938
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.147;89.9;12.87;;8.82;8.937
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.19;89.9;12.87;;8.82;8.936
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;2.231;89.9;12.88;;8.82;8.936
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.043;89.9;12.87;;8.82;8.935
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.095;89.9;12.87;;8.82;8.933
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.223;89.9;12.87;;8.82;8.93
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.263;90.0;12.87;;8.82;8.927
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.322;90.0;12.87;;8.82;8.923
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.42;90.1;12.87;;8.82;8.918
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:15;3.473;90.1;12.87;;8.82;8.912
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.523;90.2;12.87;;8.82;8.906
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.572;90.2;12.87;;8.82;8.899
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.611;90.2;12.88;;8.83;8.893
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.653;90.3;12.88;;8.83;8.885
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.696;90.3;12.88;;8.83;8.878
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.746;90.4;12.89;;8.83;8.869
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.791;90.4;12.89;;8.83;8.86
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.837;90.5;12.9;;8.83;8.851
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.897;90.5;12.91;;8.83;8.841
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;3.945;90.5;12.92;;8.83;8.831
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.737;90.5;12.93;;8.83;8.814
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.738;90.5;12.92;;8.83;8.823
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.81;90.6;12.94;;8.83;8.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.838;90.6;12.95;;8.84;8.794
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.905;90.6;12.95;;8.84;8.788
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;4.978;90.6;12.96;;8.84;8.772
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.034;90.6;12.96;;8.84;8.766
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.08;90.7;12.96;;8.84;8.746
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.116;90.7;12.96;;8.84;8.738
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.166;90.7;12.96;;8.84;8.717
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.213;90.8;12.95;;8.84;8.71
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.261;90.8;12.94;;8.84;8.692
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.301;90.8;12.94;;8.84;8.684
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.346;90.8;12.93;;8.84;8.662
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.39;90.9;12.92;;8.84;8.654
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.431;90.9;12.91;;8.84;8.628
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.476;91.0;12.9;;8.84;8.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.511;91.1;12.9;;8.84;8.589
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.545;91.1;12.89;;8.84;8.57
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.578;91.2;12.89;;8.84;8.555
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.617;91.3;12.89;;8.84;8.534
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.663;91.4;12.88;;8.84;8.514
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;5.682;91.5;12.88;;8.84;8.484
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.488;91.6;12.88;;8.84;8.455
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.557;91.8;12.88;;8.83;8.421
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.629;91.9;12.87;;8.83;8.392
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.648;92.1;12.86;;8.83;8.353
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.724;92.3;12.85;;8.83;8.316
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.803;92.5;12.84;;8.83;8.275
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.899;92.7;12.83;;8.83;8.239
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.926;92.9;12.81;;8.83;8.198
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;6.976;93.1;12.79;;8.82;8.161
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.011;93.2;12.76;;8.82;8.123
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.039;93.4;12.74;;8.82;8.095
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.066;93.6;12.71;;8.82;8.068
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.091;93.7;12.69;;8.7;8.051
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.113;93.8;12.66;;8.68;8.033
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.135;93.9;12.64;;8.65;8.02
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.152;94.0;12.61;;8.63;8.008
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.168;94.0;12.59;;8.63;8.003
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.182;94.0;12.57;;8.62;8.001
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.196;94.1;12.55;;8.61;8.001
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;30/09/2014;10:16;7.198;94.3;12.53;;8.61;8.005
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.361;78.1;12.57;;8.21;5.704
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.366;78.1;12.57;;8.21;5.702
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.373;78.1;12.57;;8.22;5.701
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.379;78.1;12.57;;8.22;5.7
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.385;78.1;12.57;;8.22;5.699
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.394;78.1;12.57;;8.22;5.699
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.406;78.1;12.57;;8.22;5.699
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.418;78.1;12.57;;8.22;5.698
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.43;78.1;12.57;;8.22;5.697
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.444;78.1;12.57;;8.22;5.697
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.459;78.1;12.57;;8.22;5.696
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.478;78.1;12.57;;8.22;5.694
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.495;78.1;12.57;;8.22;5.692
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.515;78.1;12.57;;8.22;5.691
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.535;78.1;12.57;;8.22;5.69
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.555;78.1;12.58;;8.22;5.689
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.579;78.1;12.58;;8.22;5.689
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.6;78.1;12.58;;8.22;5.688
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.621;78.1;12.58;;8.22;5.688
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.642;78.1;12.58;;8.23;5.687
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.668;78.1;12.58;;8.23;5.686
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;0.691;78.1;12.58;;8.23;5.685
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.509;78.1;12.58;;8.23;5.683
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.566;78.1;12.58;;8.23;5.682
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.694;78.1;12.58;;8.23;5.681
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.746;78.1;12.58;;8.23;5.681
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.797;78.2;12.58;;8.23;5.68
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.857;78.2;12.58;;8.23;5.68
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.908;78.2;12.58;;8.23;5.678
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;1.959;78.2;12.58;;8.23;5.676
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.005;78.2;12.58;;8.23;5.674
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.054;78.2;12.58;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.097;78.2;12.58;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.135;78.2;12.58;;8.23;5.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.174;78.2;12.58;;8.23;5.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.202;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.229;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.256;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.285;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.31;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.337;78.2;12.58;;8.23;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.366;78.2;12.58;;8.23;5.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.396;78.2;12.58;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.432;78.2;12.58;;8.23;5.672
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.46;78.2;12.58;;8.23;5.672
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.488;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;2.517;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;3.297;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;3.393;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;3.488;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;3.566;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:15;3.623;78.2;12.57;;8.23;5.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;3.742;78.2;12.57;;8.23;5.672
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;3.828;78.2;12.57;;8.23;5.672
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;3.902;78.2;12.57;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;3.961;78.2;12.57;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;4.024;78.2;12.56;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;4.093;78.2;12.57;;8.23;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;4.152;78.2;12.57;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;4.218;78.2;12.57;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.037;78.2;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.189;78.3;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.348;78.3;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.458;78.3;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.476;78.3;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.526;78.3;12.56;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.582;78.3;12.55;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.623;78.3;12.55;;8.24;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.667;78.3;12.55;;8.24;5.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.701;78.3;12.55;;8.24;5.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.739;78.3;12.55;;8.24;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.784;78.3;12.55;;8.24;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.821;78.3;12.55;;8.24;5.668
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.86;78.3;12.55;;8.24;5.667
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.896;78.3;12.55;;8.24;5.666
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.937;78.3;12.55;;8.24;5.666
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;5.969;78.3;12.55;;8.24;5.666
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.002;78.3;12.55;;8.25;5.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.035;78.3;12.55;;8.25;5.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.067;78.3;12.54;;8.25;5.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.106;78.3;12.54;;8.25;5.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.137;78.3;12.54;;8.25;5.664
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.166;78.3;12.54;;8.25;5.663
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.193;78.3;12.54;;8.25;5.662
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.219;78.3;12.54;;8.25;5.661
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.247;78.3;12.54;;8.25;5.661
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.269;78.3;12.54;;8.25;5.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.292;78.3;12.55;;8.25;5.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.299;78.3;12.55;;8.26;5.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.303;78.3;12.55;;8.26;5.659
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.307;78.3;12.55;;8.26;5.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.308;78.3;12.55;;8.26;5.659
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.315;78.3;12.55;;8.25;5.659
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.317;78.3;12.55;;8.26;5.659
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.319;78.3;12.55;;8.26;5.661
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.329;78.3;12.55;;8.26;5.658
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.334;78.3;12.55;;8.26;5.661
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.342;78.3;12.55;;8.25;5.658
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.343;78.3;12.55;;8.26;5.658
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.348;78.3;12.55;;8.26;5.662
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.356;78.3;12.55;;8.26;5.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.36;78.3;12.55;;8.25;5.658
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.365;78.3;12.55;;8.26;5.662
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.369;78.3;12.55;;8.25;5.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.373;78.3;12.55;;8.25;5.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.378;78.3;12.55;;8.25;5.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.379;78.3;12.55;;8.25;5.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.392;78.3;12.55;;8.26;5.663
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.416;78.3;12.55;;8.26;5.664
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.44;78.3;12.54;;8.26;5.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.463;78.3;12.54;;8.26;5.666
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:16;6.486;78.3;12.54;;8.26;5.667
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.156;78.2;12.54;;8.26;5.677
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.169;78.2;12.54;;8.27;5.681
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.2;78.2;12.54;;8.26;5.675
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.243;78.1;12.55;;8.27;5.695
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.245;78.3;12.54;;8.26;5.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.247;78.3;12.54;;8.26;5.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.268;78.0;12.55;;8.27;5.698
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.273;78.0;12.55;;8.26;5.705
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.283;78.0;12.56;;8.26;5.71
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.29;78.0;12.56;;8.26;5.714
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.294;78.0;12.56;;8.26;5.718
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.297;78.0;12.57;;8.26;5.721
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.299;78.0;12.57;;8.26;5.724
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.3;78.0;12.57;;8.26;5.724
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2015;10:17;7.301;78.0;12.57;;8.26;5.725
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.478;94.7;8.68;;8.54;8.673
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.479;94.7;8.68;;8.54;8.672
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.481;94.7;8.68;;8.54;8.671
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.484;94.7;8.68;;8.54;8.67
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.49;94.7;8.68;;8.54;8.669
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.495;94.7;8.68;;8.54;8.667
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.501;94.7;8.68;;8.54;8.666
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.507;94.7;8.68;;8.54;8.663
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.516;94.7;8.68;;8.55;8.659
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.523;94.7;8.68;;8.55;8.654
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.532;94.7;8.68;;8.55;8.646
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.542;94.7;8.68;;8.55;8.637
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.555;94.8;8.68;;8.55;8.629
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.567;94.8;8.68;;8.55;8.616
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.58;94.8;8.68;;8.55;8.602
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.593;94.8;8.68;;8.55;8.588
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.608;94.8;8.68;;8.55;8.576
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.626;94.8;8.68;;8.56;8.561
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.642;94.8;8.68;;8.56;8.548
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.658;94.8;8.68;;8.56;8.533
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.675;94.8;8.68;;8.56;8.521
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.691;94.8;8.68;;8.56;8.507
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.71;94.8;8.68;;8.56;8.496
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.728;94.8;8.68;;8.56;8.486
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.749;94.8;8.68;;8.56;8.479
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.771;94.8;8.68;;8.56;8.471
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.799;94.8;8.69;;8.56;8.467
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.823;94.7;8.69;;8.56;8.464
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.845;94.7;8.69;;8.57;8.461
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.867;94.7;8.69;;8.57;8.458
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.889;94.7;8.69;;8.57;8.457
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.916;94.7;8.69;;8.57;8.455
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.94;94.7;8.69;;8.57;8.454
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.965;94.7;8.69;;8.57;8.453
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;0.992;94.7;8.69;;8.57;8.451
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:44;1.019;94.7;8.69;;8.57;8.45
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.053;94.8;8.69;;8.57;8.45
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.083;94.8;8.68;;8.57;8.449
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.111;94.8;8.68;;8.57;8.449
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.14;94.8;8.68;;8.57;8.448
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.176;94.8;8.68;;8.58;8.447
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.206;94.8;8.68;;8.58;8.446
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.237;94.8;8.68;;8.58;8.445
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.267;94.8;8.68;;8.58;8.444
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.296;94.8;8.68;;8.58;8.443
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.333;94.8;8.68;;8.58;8.443
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;1.365;94.8;8.67;;8.58;8.442
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.118;94.8;8.67;;8.58;8.441
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.181;94.8;8.67;;8.58;8.44
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.271;94.8;8.67;;8.58;8.439
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.284;94.8;8.67;;8.58;8.438
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.3;94.8;8.67;;8.58;8.436
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.329;94.8;8.67;;8.58;8.435
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.374;94.8;8.66;;8.58;8.434
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.408;94.8;8.66;;8.58;8.434
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.448;94.8;8.66;;8.58;8.433
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.48;94.8;8.66;;8.58;8.432
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.509;94.8;8.66;;8.58;8.43
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.539;94.8;8.66;;8.58;8.429
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.576;94.8;8.66;;8.58;8.427
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.608;94.8;8.65;;8.58;8.425
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.637;94.9;8.65;;8.59;8.424
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.664;94.9;8.65;;8.59;8.422
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.689;94.9;8.65;;8.59;8.42
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.718;94.9;8.65;;8.59;8.419
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.743;94.9;8.65;;8.59;8.417
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.771;94.9;8.65;;8.59;8.415
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.798;94.9;8.65;;8.59;8.413
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.829;94.9;8.65;;8.59;8.411
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.856;94.9;8.65;;8.59;8.41
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.883;94.9;8.65;;8.59;8.408
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.911;94.9;8.65;;8.59;8.407
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.941;94.9;8.65;;8.59;8.406
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;2.975;94.9;8.65;;8.59;8.405
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.003;94.9;8.65;;8.59;8.405
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.756;94.9;8.65;;8.59;8.404
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.843;94.9;8.65;;8.59;8.403
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.905;94.9;8.65;;8.59;8.402
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.918;95.0;8.65;;8.59;8.4
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.938;95.0;8.65;;8.59;8.399
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.963;95.0;8.65;;8.59;8.397
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.975;95.0;8.65;;8.59;8.395
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;3.996;95.0;8.64;;8.59;8.394
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.022;95.0;8.64;;8.59;8.393
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.056;95.0;8.64;;8.59;8.391
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.091;95.0;8.64;;8.59;8.389
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.124;95.0;8.64;;8.59;8.388
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.162;95.0;8.64;;8.59;8.386
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.196;95.0;8.64;;8.59;8.385
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.23;95.0;8.64;;8.59;8.384
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.266;95.0;8.64;;8.59;8.384
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.299;95.0;8.64;;8.59;8.383
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.339;95.0;8.64;;8.59;8.382
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.372;95.0;8.64;;8.59;8.381
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.406;95.0;8.64;;8.6;8.38
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:45;4.438;95.0;8.64;;8.6;8.378
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;4.479;95.0;8.64;;8.6;8.377
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.288;95.0;8.64;;8.6;8.375
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.307;95.0;8.63;;8.6;8.372
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.347;95.0;8.63;;8.6;8.37
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.367;95.0;8.63;;8.6;8.369
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.396;95.0;8.63;;8.6;8.366
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.423;95.0;8.63;;8.6;8.364
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.446;95.0;8.63;;8.6;8.358
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.467;95.0;8.63;;8.6;8.357
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.484;95.1;8.63;;8.6;8.35
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.506;95.1;8.62;;8.6;8.349
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.527;95.1;8.62;;8.6;8.341
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.551;95.1;8.62;;8.6;8.339
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.579;95.1;8.62;;8.6;8.333
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.603;95.1;8.62;;8.6;8.325
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.627;95.1;8.62;;8.6;8.319
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.653;95.1;8.62;;8.6;8.313
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.682;95.1;8.62;;8.6;8.307
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.718;95.1;8.62;;8.6;8.301
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.749;95.1;8.62;;8.6;8.295
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.78;95.1;8.62;;8.6;8.288
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.813;95.1;8.63;;8.6;8.28
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;5.853;95.1;8.63;;8.6;8.272
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.622;95.1;8.63;;8.6;8.261
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.697;95.1;8.64;;8.6;8.25
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.731;95.2;8.64;;8.6;8.237
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.766;95.2;8.65;;8.6;8.225
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.807;95.2;8.66;;8.6;8.211
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.84;95.2;8.66;;8.6;8.198
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.869;95.3;8.67;;8.6;8.184
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.899;95.3;8.68;;8.6;8.17
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.925;95.4;8.69;;8.6;8.156
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.954;95.4;8.7;;8.6;8.144
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.974;95.5;8.7;;8.6;8.132
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;6.992;95.5;8.71;;8.6;8.124
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.019;95.6;8.71;;8.6;8.115
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.035;95.6;8.72;;8.6;8.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.05;95.6;8.72;;8.6;8.107
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.069;95.7;8.72;;8.6;8.106
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.084;95.7;8.72;;8.6;8.106
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.1;95.7;8.72;;8.6;8.109
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.115;95.7;8.72;;8.6;8.114
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.134;95.7;8.72;;8.6;8.118
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.148;95.7;8.71;;8.6;8.123
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.16;95.7;8.71;;8.6;8.127
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.17;95.7;8.71;;8.6;8.132
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.178;95.8;8.7;;8.6;8.137
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;sonde : problème avec l'étalonnage de la profondeur (apparition du triangle);29/09/2016;10:46;7.18;96.0;8.7;;8.6;8.141
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.732;92.2;9.86;-127.7;9.22;7.677
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.733;92.2;9.86;-127.9;9.22;7.674
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.735;92.2;9.85;-127.9;9.22;7.665
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.737;92.2;9.86;-127.9;9.22;7.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.74;92.3;9.86;-128.0;9.22;7.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.745;92.3;9.86;-128.0;9.22;7.657
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.751;92.2;9.86;-128.0;9.23;7.65
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.76;92.3;9.86;-128.1;9.23;7.645
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.77;92.3;9.86;-128.1;9.23;7.642
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.785;92.4;9.86;-128.1;9.23;7.639
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.799;92.4;9.86;-128.1;9.23;7.638
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.815;92.5;9.86;-128.1;9.23;7.636
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;0.832;92.5;9.86;-128.2;9.23;7.634
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.595;92.6;9.86;-128.3;9.23;7.63
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.649;92.7;9.86;-128.3;9.23;7.624
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.678;92.7;9.87;-128.2;9.23;7.623
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.704;92.7;9.87;-127.8;9.22;7.622
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.722;92.7;9.87;-127.6;9.22;7.622
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.754;92.7;9.87;-127.7;9.22;7.622
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:26;1.792;92.7;9.87;-127.6;9.22;7.623
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;1.832;92.8;9.87;-127.8;9.22;7.623
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;1.921;92.9;9.86;-127.7;9.22;7.619
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;1.97;92.9;9.86;-127.6;9.22;7.616
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.002;92.8;9.86;-127.8;9.22;7.615
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.063;92.7;9.86;-127.8;9.22;7.615
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.16;92.7;9.86;-127.7;9.22;7.611
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.236;92.8;9.86;-127.6;9.22;7.609
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.297;92.8;9.86;-127.4;9.21;7.608
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.322;92.8;9.86;-127.5;9.22;7.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.353;92.8;9.86;-127.7;9.22;7.606
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.38;92.9;9.87;-127.7;9.22;7.606
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.405;92.9;9.86;-127.7;9.22;7.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.461;92.9;9.86;-127.7;9.22;7.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.504;92.9;9.86;-127.8;9.22;7.606
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.534;92.9;9.87;-127.8;9.22;7.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.576;92.9;9.87;-127.8;9.22;7.608
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.62;92.9;9.87;-127.9;9.22;7.607
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.664;92.9;9.87;-127.9;9.22;7.604
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.71;92.9;9.87;-128.0;9.22;7.603
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.777;93.0;9.87;-128.0;9.23;7.603
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.819;93.0;9.87;-128.0;9.23;7.601
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.861;92.9;9.87;-128.0;9.23;7.601
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.899;93.0;9.87;-128.0;9.23;7.602
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.931;93.1;9.87;-128.0;9.23;7.601
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;2.977;93.1;9.87;-128.0;9.23;7.601
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.01;93.1;9.87;-128.0;9.23;7.602
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.027;93.0;9.87;-128.0;9.23;7.603
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.053;93.1;9.87;-128.0;9.23;7.601
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.082;93.1;9.86;-128.0;9.23;7.599
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.125;93.1;9.86;-128.0;9.23;7.599
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.192;93.1;9.86;-128.0;9.23;7.599
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.262;93.1;9.86;-128.0;9.23;7.598
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.306;93.1;9.86;-128.0;9.23;7.597
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.361;93.1;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.403;93.1;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.462;93.1;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.512;93.2;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.545;93.2;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.593;93.2;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.627;93.2;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.672;93.2;9.87;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.724;93.3;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.76;93.3;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.777;93.3;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.805;93.3;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.843;93.4;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.868;93.3;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.897;93.3;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.923;93.3;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;3.982;93.4;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.01;93.3;9.86;-128.1;9.23;7.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.048;93.3;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.091;93.3;9.86;-128.1;9.23;7.595
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.124;93.3;9.86;-128.1;9.23;7.594
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.175;93.4;9.85;-128.1;9.23;7.593
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.213;93.4;9.85;-128.1;9.23;7.592
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.23;93.4;9.85;-128.1;9.23;7.592
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.265;93.4;9.85;-128.1;9.23;7.592
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.313;93.5;9.85;-128.1;9.23;7.593
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:27;4.409;93.4;9.85;-128.0;9.23;7.592
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.468;93.4;9.85;-128.0;9.22;7.591
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.508;93.4;9.85;-128.0;9.22;7.589
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.538;93.5;9.85;-128.0;9.22;7.589
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.626;93.5;9.85;-128.0;9.22;7.586
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.698;93.5;9.85;-128.0;9.22;7.586
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.755;93.5;9.85;-128.0;9.22;7.585
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.812;93.6;9.85;-128.0;9.23;7.579
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.879;93.7;9.85;-128.0;9.23;7.577
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.946;93.7;9.85;-128.1;9.23;7.571
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;4.981;93.6;9.85;-128.1;9.23;7.57
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.024;93.6;9.86;-128.2;9.23;7.569
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.061;93.7;9.86;-128.2;9.23;7.564
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.114;93.7;9.86;-128.3;9.23;7.56
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.163;93.7;9.87;-128.3;9.23;7.55
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.232;93.8;9.87;-128.3;9.23;7.543
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.281;93.8;9.87;-128.4;9.23;7.538
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.349;93.8;9.88;-128.5;9.23;7.534
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.457;93.8;9.89;-128.5;9.23;7.526
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.521;93.9;9.9;-128.5;9.23;7.52
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.563;93.8;9.91;-128.5;9.23;7.519
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.604;93.9;9.91;-128.5;9.23;7.515
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.688;93.9;9.92;-128.5;9.24;7.51
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.762;93.9;9.92;-128.5;9.23;7.505
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.851;93.9;9.92;-128.5;9.23;7.502
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.893;94.0;9.92;-128.4;9.23;7.491
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;5.956;94.1;9.92;-128.3;9.23;7.479
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.041;94.1;9.9;-128.2;9.23;7.461
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.082;94.2;9.89;-128.1;9.23;7.407
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.205;94.3;9.9;-128.0;9.23;7.384
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.275;94.3;9.91;-127.8;9.22;7.376
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.326;94.3;9.91;-127.8;9.22;7.367
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.42;94.4;9.9;-127.7;9.22;7.352
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.505;94.5;9.9;-127.7;9.22;7.327
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.548;94.6;9.92;-127.7;9.22;7.317
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.637;94.6;9.91;-128.0;9.23;7.297
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.764;94.8;9.91;-128.4;9.23;7.249
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.811;94.8;9.94;-128.8;9.24;7.241
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;6.924;94.9;9.97;-129.3;9.25;7.238
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.003;94.9;10.01;-129.7;9.26;7.248
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.029;94.9;10.04;-130.0;9.26;7.251
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.058;94.9;10.08;-130.4;9.27;7.247
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.089;95.0;10.12;-130.9;9.28;7.248
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.137;95.0;10.15;-131.3;9.29;7.252
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.171;94.9;10.19;-131.5;9.29;7.254
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.198;94.9;10.22;-131.7;9.29;7.258
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.22;94.9;10.25;-131.8;9.29;7.261
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.249;95.0;10.27;-131.9;9.3;7.265
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.283;94.9;10.29;-132.0;9.3;7.273
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.3;94.9;10.31;-132.1;9.3;7.283
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.315;94.9;10.33;-132.2;9.3;7.294
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.336;94.9;10.34;-132.2;9.3;7.307
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.356;94.8;10.36;-132.2;9.3;7.342
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.359;94.7;10.36;-132.2;9.3;7.371
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;difficultés calibration pression;27/09/2017;10:28;7.361;94.7;10.36;-132.5;9.31;7.366
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.215;87.9;8.73;-121.1;8.69;12.444
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.217;87.9;8.73;-121.1;8.69;12.439
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.22;88.0;8.73;-121.2;8.69;12.419
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.223;87.9;8.73;-121.1;8.69;12.416
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.23;87.9;8.73;-121.2;8.69;12.409
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.236;87.9;8.73;-121.4;8.7;12.399
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.245;88.0;8.73;-121.5;8.7;12.379
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.251;88.0;8.73;-121.6;8.7;12.367
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.258;88.0;8.74;-121.6;8.7;12.366
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.263;88.0;8.74;-121.5;8.7;12.346
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:08;0.272;88.0;8.73;-121.7;8.7;12.313
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.295;88.1;8.72;-121.9;8.71;12.248
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.319;88.1;8.72;-122.0;8.71;12.156
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.346;88.1;8.74;-122.1;8.71;12.104
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.379;88.1;8.76;-122.3;8.72;12.066
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.42;88.1;8.78;-122.4;8.72;12.055
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.478;88.0;8.79;-122.5;8.72;12.044
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.533;88.0;8.8;-122.5;8.72;12.034
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.596;88.0;8.8;-122.5;8.72;12.013
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.658;88.1;8.81;-122.6;8.72;12.006
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.73;88.1;8.82;-122.7;8.72;12.005
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.788;88.1;8.83;-122.8;8.72;12.006
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.843;88.1;8.83;-122.9;8.73;11.998
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.895;88.2;8.84;-123.0;8.73;11.996
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.94;88.2;8.85;-123.2;8.73;11.998
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;0.988;88.2;8.86;-123.3;8.73;12.001
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.023;88.1;8.86;-123.3;8.73;12.002
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.055;88.0;8.87;-123.3;8.73;11.995
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.088;88.1;8.87;-123.4;8.73;11.988
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.131;88.1;8.88;-123.4;8.73;11.984
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.168;88.0;8.89;-123.5;8.74;11.981
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.208;88.1;8.89;-123.6;8.74;11.975
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.254;88.1;8.9;-123.6;8.74;11.969
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.305;88.1;8.9;-123.6;8.74;11.967
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.373;88.1;8.91;-123.6;8.74;11.966
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.428;88.1;8.92;-123.7;8.74;11.966
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.479;88.1;8.93;-123.8;8.74;11.971
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.523;88.1;8.93;-124.0;8.74;11.972
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.569;88.1;8.93;-124.0;8.74;11.966
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.621;88.1;8.94;-124.0;8.74;11.962
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.659;88.1;8.95;-124.0;8.75;11.962
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.695;88.1;8.95;-124.1;8.75;11.963
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.726;88.1;8.95;-124.1;8.75;11.958
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.764;88.1;8.96;-124.2;8.75;11.955
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.797;88.0;8.96;-124.2;8.75;11.954
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.834;88.1;8.97;-124.3;8.75;11.954
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.87;88.1;8.97;-124.3;8.75;11.952
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.906;88.1;8.97;-124.4;8.75;11.949
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;1.957;88.1;8.97;-124.4;8.75;11.943
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.0;88.1;8.97;-124.4;8.75;11.94
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.044;88.1;8.98;-124.5;8.75;11.94
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.09;88.1;8.98;-124.5;8.75;11.94
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.145;88.1;8.97;-124.5;8.75;11.939
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.216;88.1;8.97;-124.5;8.75;11.934
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.276;88.2;8.97;-124.6;8.75;11.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.334;88.2;8.97;-124.6;8.76;11.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.4;88.1;8.97;-124.6;8.76;11.928
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.487;88.1;8.97;-124.5;8.75;11.925
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.568;88.2;8.97;-124.5;8.75;11.922
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.653;88.2;8.97;-124.6;8.76;11.92
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.732;88.2;8.97;-124.8;8.76;11.917
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.807;88.2;8.98;-124.8;8.76;11.915
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.895;88.2;8.98;-124.8;8.76;11.915
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;2.971;88.2;8.97;-124.9;8.76;11.914
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.043;88.2;8.97;-124.9;8.76;11.908
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.107;88.2;8.98;-125.0;8.76;11.904
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.165;88.2;8.97;-125.1;8.76;11.902
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.226;88.3;8.97;-125.1;8.76;11.892
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.273;88.3;8.97;-125.2;8.77;11.884
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.318;88.3;8.98;-125.1;8.76;11.882
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:09;3.363;88.3;8.98;-125.1;8.76;11.879
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.415;88.4;8.99;-125.1;8.76;11.877
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.459;88.4;8.99;-125.1;8.76;11.874
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.497;88.4;8.99;-125.2;8.77;11.873
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.536;88.4;9.0;-125.2;8.77;11.873
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.572;88.5;8.99;-125.2;8.77;11.869
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.615;88.5;9.0;-125.2;8.77;11.858
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.655;88.4;9.0;-125.2;8.77;11.848
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.704;88.5;9.01;-125.1;8.76;11.835
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.761;88.5;9.02;-125.0;8.76;11.832
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.821;88.5;9.02;-125.1;8.76;11.83
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.904;88.5;9.02;-125.1;8.76;11.827
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;3.981;88.5;9.01;-125.0;8.76;11.818
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.06;88.6;9.02;-125.1;8.76;11.813
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.141;88.7;9.02;-125.2;8.77;11.808
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.238;88.7;9.02;-125.3;8.77;11.797
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.31;88.7;9.02;-125.3;8.77;11.792
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.375;88.7;9.01;-125.3;8.77;11.792
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.435;88.8;9.01;-125.4;8.77;11.791
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.491;88.8;9.0;-125.5;8.77;11.771
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.556;88.9;9.0;-125.5;8.77;11.738
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.608;88.9;9.01;-125.7;8.78;11.72
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.66;89.1;9.02;-126.0;8.78;11.696
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.715;89.3;9.02;-126.2;8.78;11.66
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.78;89.5;9.01;-126.4;8.79;11.62
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.839;90.2;9.02;-126.6;8.79;11.498
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.899;90.7;9.06;-126.9;8.8;11.395
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;4.964;90.8;9.13;-127.2;8.8;11.341
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.024;91.0;9.22;-127.5;8.81;11.304
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.098;91.2;9.27;-127.7;8.81;11.273
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.164;91.6;9.35;-127.9;8.82;11.206
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.229;91.8;9.42;-128.3;8.82;11.177
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.295;92.1;9.49;-128.7;8.83;11.182
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.357;92.5;9.54;-129.1;8.84;11.154
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.426;92.8;9.58;-129.3;8.84;11.105
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.484;93.2;9.64;-129.5;8.84;11.088
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.542;93.4;9.67;-129.8;8.85;11.06
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.605;93.6;9.71;-130.2;8.86;11.04
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.682;93.6;9.74;-130.5;8.86;11.033
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.746;93.8;9.75;-130.8;8.87;11.002
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.815;93.9;9.79;-131.0;8.87;10.93
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.893;94.0;9.8;-131.0;8.87;10.894
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;5.974;94.1;9.82;-131.2;8.87;10.866
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.072;94.3;9.87;-131.3;8.88;10.837
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.153;94.3;9.88;-131.7;8.88;10.828
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.232;94.3;9.91;-132.0;8.89;10.803
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.309;94.4;9.92;-132.3;8.89;10.795
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.403;94.4;9.93;-132.3;8.89;10.784
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.479;94.5;9.95;-132.5;8.9;10.771
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.553;94.6;9.96;-132.7;8.9;10.761
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.621;94.6;9.97;-132.9;8.9;10.761
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.69;94.8;10.0;-133.3;8.91;10.76
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.768;94.8;10.01;-133.5;8.92;10.761
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.827;94.7;10.03;-133.7;8.92;10.768
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.88;94.7;10.05;-134.1;8.93;10.767
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.927;94.7;10.06;-134.3;8.93;10.765
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;6.995;94.7;10.07;-134.3;8.93;10.771
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;7.016;94.7;9.97;-134.0;8.92;10.78
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;7.05;94.7;9.69;-133.2;8.91;10.785
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;7.1;94.7;9.46;-132.5;8.9;10.79
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:10;7.112;94.7;9.29;-131.8;8.89;10.794
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:11;7.161;94.7;9.19;-131.6;8.88;10.796
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:11;7.179;94.7;9.11;-131.6;8.88;10.797
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:11;7.207;94.7;9.09;-131.8;8.89;10.796
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:11;7.247;94.9;9.1;-132.2;8.89;10.798
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;19/09/2018;11:11;7.257;95.0;9.15;-132.0;8.89;10.796
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.881;84.3;9.49;-167.9;9.46;11.118
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.889;84.3;9.49;-167.8;9.46;11.118
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.902;84.2;9.49;-167.7;9.46;11.117
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.915;84.2;9.49;-167.6;9.45;11.117
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.954;84.2;9.49;-167.7;9.45;11.114
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;0.966;84.3;9.49;-167.7;9.45;11.113
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.053;84.2;9.49;-167.8;9.46;11.111
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.12;84.2;9.49;-167.8;9.46;11.108
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.155;84.2;9.49;-167.8;9.46;11.109
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.193;84.3;9.49;-167.9;9.46;11.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.234;84.3;9.49;-167.7;9.45;11.111
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.258;84.2;9.49;-168.0;9.46;11.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.287;84.2;9.49;-168.0;9.46;11.111
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.323;84.4;9.49;-168.1;9.46;11.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.335;84.3;9.49;-167.9;9.46;11.113
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.36;84.4;9.49;-168.0;9.46;11.114
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.365;84.3;9.49;-168.1;9.46;11.105
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.382;84.5;9.49;-168.0;9.46;11.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.398;84.5;9.49;-168.3;9.46;11.111
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.428;84.3;9.49;-168.2;9.46;11.113
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.455;84.5;9.49;-168.3;9.47;11.113
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.463;84.4;9.49;-168.3;9.46;11.112
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.484;84.3;9.49;-167.7;9.45;11.1
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.578;84.3;9.49;-167.7;9.45;11.093
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.647;84.2;9.49;-167.9;9.46;11.091
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.722;84.2;9.49;-168.1;9.46;11.091
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.786;84.3;9.48;-168.2;9.46;11.087
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.878;84.3;9.49;-168.2;9.46;11.085
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;1.94;84.3;9.49;-168.2;9.46;11.085
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.012;84.3;9.49;-168.4;9.47;11.087
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.085;84.3;9.48;-168.3;9.46;11.084
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.095;84.4;9.48;-168.2;9.46;11.082
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.12;84.3;9.48;-168.5;9.47;11.082
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.153;84.3;9.48;-168.5;9.47;11.084
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.183;84.3;9.48;-168.4;9.47;11.081
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.231;84.4;9.48;-168.2;9.46;11.071
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.294;84.4;9.48;-168.3;9.47;11.066
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.337;84.4;9.49;-168.4;9.47;11.066
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.407;84.4;9.48;-168.3;9.47;11.066
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.418;84.4;9.48;-168.2;9.46;11.064
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:39;2.428;84.4;9.48;-168.4;9.47;11.064
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.456;84.4;9.48;-168.5;9.47;11.065
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.481;84.4;9.48;-168.3;9.47;11.066
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.502;84.4;9.48;-168.3;9.47;11.063
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.537;84.4;9.48;-168.4;9.47;11.061
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.583;84.4;9.48;-168.4;9.47;11.062
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.627;84.3;9.48;-168.4;9.47;11.062
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.669;84.4;9.48;-168.2;9.46;11.062
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.694;84.4;9.47;-168.2;9.46;11.059
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.732;84.4;9.47;-168.2;9.46;11.056
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.784;84.4;9.47;-168.1;9.46;11.05
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.83;84.3;9.47;-168.0;9.46;11.047
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.871;84.4;9.47;-168.1;9.46;11.046
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.915;84.4;9.46;-168.2;9.46;11.047
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;2.98;84.4;9.46;-168.2;9.46;11.047
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.027;84.3;9.46;-168.2;9.46;11.046
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.079;84.4;9.46;-168.1;9.46;11.045
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.126;84.4;9.45;-168.1;9.46;11.044
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.181;84.3;9.45;-168.1;9.46;11.042
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.215;84.3;9.45;-168.1;9.46;11.042
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.247;84.3;9.45;-168.1;9.46;11.042
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.283;84.4;9.45;-168.1;9.46;11.042
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.298;84.3;9.45;-168.1;9.46;11.041
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.336;84.3;9.45;-168.2;9.46;11.04
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.372;84.3;9.44;-168.1;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.4;84.4;9.44;-168.1;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.422;84.3;9.44;-168.0;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.426;84.3;9.44;-168.0;9.46;11.039
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.435;84.3;9.43;-167.7;9.46;11.04
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.437;84.3;9.44;-168.1;9.46;11.039
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.44;84.3;9.43;-167.9;9.46;11.04
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.447;84.3;9.43;-167.8;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.456;84.4;9.44;-168.0;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.462;84.4;9.43;-168.0;9.46;11.039
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.507;84.4;9.43;-168.0;9.46;11.036
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.552;84.4;9.43;-168.0;9.46;11.035
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.6;84.3;9.43;-167.9;9.46;11.035
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.62;84.3;9.43;-167.9;9.46;11.035
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.621;84.3;9.43;-168.0;9.46;11.038
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.631;84.3;9.42;-168.0;9.46;11.04
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.644;84.3;9.42;-168.0;9.46;11.039
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.66;84.3;9.42;-168.0;9.46;11.036
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.708;84.4;9.42;-168.0;9.46;11.035
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.761;84.4;9.42;-168.0;9.46;11.034
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.809;84.3;9.42;-167.9;9.46;11.032
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.837;84.4;9.41;-167.9;9.46;11.029
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.887;84.4;9.41;-167.9;9.46;11.025
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;3.952;84.4;9.41;-167.9;9.46;11.023
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.002;84.4;9.41;-167.9;9.46;11.021
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.035;84.4;9.41;-168.0;9.46;11.021
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.063;84.4;9.41;-168.0;9.46;11.021
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.121;84.4;9.41;-168.0;9.46;11.021
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.168;84.4;9.41;-167.9;9.46;11.02
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.223;84.4;9.4;-167.9;9.46;11.019
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.273;84.4;9.4;-167.9;9.46;11.019
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.326;84.4;9.4;-167.9;9.46;11.02
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.383;84.4;9.4;-167.8;9.46;11.019
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.443;84.3;9.4;-167.8;9.46;11.018
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.491;84.4;9.4;-167.8;9.46;11.018
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.522;84.4;9.4;-167.8;9.46;11.018
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:40;4.553;84.4;9.4;-167.7;9.46;11.018
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.563;84.4;9.39;-167.6;9.45;11.02
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.57;84.4;9.39;-167.6;9.45;11.019
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.6;84.4;9.39;-167.8;9.46;11.016
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.63;84.4;9.39;-167.8;9.46;11.014
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.7;84.4;9.39;-167.8;9.46;11.013
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.759;84.4;9.39;-167.8;9.46;11.011
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.827;84.4;9.39;-167.8;9.46;11.011
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.854;84.4;9.39;-167.8;9.46;11.01
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;4.916;84.4;9.39;-167.8;9.46;11.007
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.006;84.4;9.39;-167.8;9.46;11.004
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.087;84.4;9.39;-167.8;9.46;11.001
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.146;84.5;9.39;-167.7;9.46;10.998
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.199;84.5;9.39;-167.7;9.46;10.996
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.252;84.5;9.39;-167.8;9.46;10.992
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.321;84.5;9.39;-167.9;9.46;10.987
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.384;84.5;9.39;-167.9;9.46;10.983
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.436;84.6;9.39;-168.0;9.46;10.982
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.47;84.5;9.4;-168.0;9.46;10.984
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.478;84.5;9.4;-167.9;9.46;10.989
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.492;84.5;9.4;-168.0;9.46;10.986
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.502;84.5;9.4;-168.0;9.46;10.98
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.514;84.5;9.4;-168.1;9.46;10.977
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.534;84.5;9.41;-168.1;9.46;10.974
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.575;84.5;9.41;-168.1;9.46;10.969
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.604;84.6;9.41;-168.1;9.46;10.965
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.655;84.6;9.41;-168.1;9.46;10.941
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.725;84.6;9.42;-168.1;9.46;10.923
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.804;84.6;9.43;-168.1;9.46;10.913
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.864;84.6;9.43;-168.0;9.46;10.909
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.92;84.6;9.43;-168.0;9.46;10.903
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;5.985;84.6;9.43;-168.0;9.46;10.894
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.066;84.6;9.43;-168.0;9.46;10.891
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.152;84.6;9.43;-168.0;9.46;10.887
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.24;84.7;9.43;-168.1;9.46;10.879
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.314;84.7;9.42;-168.1;9.46;10.876
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.371;84.7;9.43;-168.1;9.46;10.872
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.389;84.7;9.44;-168.1;9.46;10.869
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.428;84.8;9.44;-168.1;9.46;10.867
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.48;84.8;9.43;-167.9;9.46;10.861
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.521;84.8;9.44;-168.0;9.46;10.843
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.541;84.9;9.46;-168.2;9.47;10.837
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.584;85.0;9.47;-168.4;9.47;10.821
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.653;85.1;9.55;-168.7;9.48;10.808
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.703;85.1;9.61;-168.9;9.48;10.809
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.759;85.1;9.69;-169.1;9.48;10.81
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.77;85.2;9.76;-169.6;9.49;10.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.794;85.2;9.83;-170.0;9.5;10.799
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.805;85.2;9.89;-170.3;9.5;10.797
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.881;85.2;9.94;-170.5;9.51;10.798
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.911;85.3;9.99;-170.6;9.51;10.797
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.955;85.3;10.03;-170.9;9.51;10.795
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;6.994;85.2;10.07;-171.2;9.52;10.794
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.012;85.2;10.12;-171.4;9.52;10.795
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.032;85.3;10.16;-171.5;9.53;10.798
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.073;85.3;10.21;-171.6;9.53;10.8
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.093;85.2;10.24;-171.7;9.53;10.803
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.109;85.2;10.26;-171.8;9.53;10.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.169;85.2;10.23;-171.9;9.53;10.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.191;85.3;10.15;-172.0;9.53;10.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:41;7.203;85.3;10.0;-172.1;9.54;10.806
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:42;7.226;85.2;9.85;-172.1;9.54;10.808
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:42;7.247;85.3;9.66;-172.1;9.54;10.813
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:42;7.271;85.3;9.51;-172.1;9.54;10.832
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;01/10/2019;09:42;7.274;85.2;9.44;-171.9;9.53;10.845
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.405;74.0;8.84;-106.0;8.73;10.421
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.409;73.9;8.84;-106.0;8.73;10.436
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.414;73.9;8.84;-105.9;8.73;10.435
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.45;73.9;8.83;-105.9;8.73;10.411
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.484;73.9;8.82;-105.8;8.73;10.382
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.558;74.0;8.83;-105.8;8.73;10.348
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.626;73.9;8.83;-105.8;8.73;10.328
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.698;73.8;8.84;-105.7;8.73;10.322
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.779;73.8;8.84;-105.7;8.73;10.316
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.863;73.9;8.84;-105.6;8.73;10.308
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;0.963;73.9;8.83;-105.6;8.73;10.302
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.041;73.9;8.84;-105.6;8.73;10.296
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.119;73.9;8.84;-105.6;8.73;10.294
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.196;73.9;8.83;-105.5;8.72;10.288
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.27;73.9;8.83;-105.2;8.72;10.281
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.358;73.9;8.83;-105.2;8.72;10.274
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.427;73.9;8.84;-105.4;8.72;10.268
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.494;73.9;8.84;-105.4;8.72;10.265
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.556;74.0;8.84;-105.5;8.72;10.262
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.634;73.9;8.84;-105.5;8.73;10.259
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.695;73.9;8.84;-105.5;8.73;10.257
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.749;73.9;8.84;-105.3;8.72;10.256
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.8;73.9;8.84;-105.2;8.72;10.257
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.843;73.9;8.84;-105.3;8.72;10.257
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.895;73.9;8.84;-105.3;8.72;10.255
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.937;73.8;8.84;-105.2;8.72;10.251
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;1.978;73.9;8.84;-105.2;8.72;10.251
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.014;73.9;8.84;-105.3;8.72;10.252
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.061;73.9;8.83;-105.1;8.72;10.249
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.13;73.9;8.83;-105.1;8.72;10.241
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.197;73.9;8.83;-105.4;8.72;10.236
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.27;73.9;8.84;-105.6;8.73;10.232
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.342;73.9;8.84;-105.7;8.73;10.229
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:56;2.432;73.9;8.84;-105.7;8.73;10.226
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.515;73.9;8.84;-105.6;8.73;10.224
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.608;73.9;8.84;-105.7;8.73;10.22
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.698;73.9;8.84;-105.7;8.73;10.216
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.778;73.9;8.84;-105.6;8.73;10.213
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.865;73.9;8.84;-105.4;8.72;10.212
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;2.934;73.9;8.84;-105.4;8.72;10.209
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.002;74.0;8.84;-105.6;8.73;10.208
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.074;74.0;8.84;-105.8;8.73;10.201
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.16;73.9;8.84;-105.5;8.73;10.192
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.232;73.9;8.84;-105.2;8.72;10.183
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.299;74.1;8.84;-105.2;8.72;10.179
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.366;74.1;8.84;-105.4;8.72;10.18
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.431;74.1;8.83;-105.8;8.73;10.178
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.51;74.1;8.83;-106.3;8.74;10.171
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.578;74.5;8.83;-107.0;8.75;10.164
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.649;74.7;8.84;-107.6;8.77;10.156
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.713;74.7;8.85;-108.8;8.79;10.144
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.773;74.8;8.87;-109.9;8.81;10.126
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.84;75.0;8.89;-110.5;8.82;10.111
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.899;75.0;8.92;-110.7;8.82;10.1
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;3.962;75.0;8.95;-110.4;8.82;10.098
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.021;75.0;8.96;-110.2;8.82;10.095
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.092;75.1;8.97;-110.2;8.82;10.086
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.146;75.1;8.98;-110.0;8.81;10.078
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.201;74.8;8.99;-109.5;8.8;10.072
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.26;74.7;9.0;-108.8;8.79;10.065
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.318;74.8;9.0;-108.5;8.78;10.065
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.387;74.8;9.0;-108.3;8.78;10.065
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.44;74.8;9.0;-108.0;8.77;10.065
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.497;74.8;8.99;-107.9;8.77;10.063
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.554;74.7;8.99;-107.6;8.77;10.058
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.616;74.7;8.98;-107.1;8.76;10.039
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.692;74.9;8.95;-106.6;8.75;9.999
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.755;75.0;8.95;-106.6;8.75;9.931
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.819;75.1;8.97;-106.5;8.75;9.917
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.886;75.2;8.97;-106.5;8.75;9.896
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;4.977;75.3;8.95;-106.9;8.75;9.88
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.061;75.6;8.94;-108.0;8.78;9.799
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.143;76.1;8.98;-109.5;8.8;9.754
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.222;76.6;9.02;-110.4;8.82;9.714
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.298;76.9;9.05;-111.2;8.84;9.663
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.394;77.1;9.08;-113.0;8.87;9.639
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.469;77.2;9.13;-114.9;8.91;9.63
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.545;77.5;9.16;-115.9;8.93;9.596
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.619;77.8;9.18;-116.0;8.93;9.527
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.705;78.0;9.21;-115.0;8.91;9.447
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.782;78.1;9.25;-114.1;8.89;9.421
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.854;78.0;9.29;-113.4;8.88;9.42
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;5.928;77.8;9.29;-113.0;8.87;9.416
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.002;77.8;9.27;-112.3;8.86;9.352
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.092;77.9;9.27;-111.9;8.85;9.276
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.165;78.0;9.3;-111.8;8.85;9.227
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.238;78.1;9.31;-111.6;8.85;9.214
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.304;78.2;9.32;-111.4;8.84;9.201
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.37;78.2;9.3;-111.3;8.84;9.162
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.45;78.4;9.3;-111.2;8.84;9.112
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.515;78.4;9.32;-111.2;8.84;9.104
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.571;78.5;9.33;-111.1;8.84;9.108
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.62;78.5;9.33;-111.1;8.84;9.117
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:57;6.679;78.5;9.33;-111.1;8.84;9.118
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.72;78.5;9.33;-111.1;8.84;9.11
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.76;78.6;9.33;-111.1;8.84;9.104
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.795;78.6;9.34;-111.0;8.84;9.107
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.824;78.6;9.34;-111.0;8.84;9.109
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.86;78.5;9.35;-111.0;8.84;9.109
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.888;78.6;9.35;-110.9;8.84;9.112
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.915;78.6;9.36;-110.9;8.84;9.116
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.936;78.6;9.36;-110.8;8.83;9.121
+Suivi des lacs sentinelles;Pisses;Pisses : centroïde;sonde exo PNE;;23/09/2020;09:58;6.938;78.6;9.36;-110.6;8.83;9.109

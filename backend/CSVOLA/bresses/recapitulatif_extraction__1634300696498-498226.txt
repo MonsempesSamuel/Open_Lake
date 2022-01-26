@@ -1,0 +1,24 @@
+Ce fichier récapitule vos paramètres d'extraction
+
+Projet sélectionné:
+   Suivi des lacs sentinelles
+
+Plateformes selectionnées:
+   Bresses inférieur : centroïde (site: Bresses inférieur)
+
+Variables de Sonde multiparamètres selectionnées: 
+   cond25degres
+   oxygene mg
+   ph tc
+   Température
+
+Toutes les profondeurs ont été selectionnées
+
+Types d'extractions souhaitées:
+   Extraction des donnéees brutes de l'ORE
+
+Périodes sélectionnées:
+    du 10/01/2001 au 10/01/2021
+
+Commentaire d'extraction:
+   

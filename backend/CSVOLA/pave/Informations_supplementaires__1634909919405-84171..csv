@@ -1,0 +1,33 @@
+Type de DDR (contexte);Elément OLA;Code sandre de l'élément;Code sandre du contexte;Longitude de la plateforme;Latitude de la plateforme;Altitude de la plateforme (m)
+"site";"Pavé";"W2705003";"null";
+"plateforme(site)";"Pavé : centroïde(Pavé)";"null";"null";"6.32588";"44.9877";"2846.0";
+"variable";"par w";
+"variable";"oxygene saturation corrige winkler";
+"variable";"oxygene mg";
+"variable";"chl a";
+"variable";"ph tc";
+"variable";"turbidite";
+"variable";"cond25degres";
+"variable";"pc";
+"variable";"Température";
+"variable";"ph brut";
+"variable";"oxygene mg corrige winkler";
+"variable";"pah";
+"variable";"oxygene saturation";
+"variable";"par a";
+"variable";"trans";
+"Unité(variable)";"micro Ensteins(par w)"
+"Unité(variable)";"pourcentage(oxygene saturation corrige winkler)"
+"Unité(variable)";"milligramme par litre(oxygene mg)"
+"Unité(variable)";"milligramme par mètre cube(chl a)"
+"Unité(variable)";"no unit(ph tc)"
+"Unité(variable)";"Formazine Turbidité Unit(turbidite)"
+"Unité(variable)";"milli-siemens par centimètre(cond25degres)"
+"Unité(variable)";"microgramme par litre(pc)"
+"Unité(variable)";"degrés celsius(Température)"
+"Unité(variable)";"no unit(ph brut)"
+"Unité(variable)";"milligramme par litre(oxygene mg corrige winkler)"
+"Unité(variable)";"microgramme par litre(pah)"
+"Unité(variable)";"pourcentage(oxygene saturation)"
+"Unité(variable)";"micro Ensteins(par a)"
+"Unité(variable)";"pourcentage(trans)"

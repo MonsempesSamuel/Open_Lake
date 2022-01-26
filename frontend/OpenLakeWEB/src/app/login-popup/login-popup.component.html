@@ -1,0 +1,24 @@
+
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+</div>
+<form class="login-form">
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Email</mat-label>
+    <input type="email" name="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher" placeholder="Ex. pat@example.com" [(ngModel)]="email">
+
+    <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+      Please enter a valid email address
+    </mat-error>
+    <mat-error *ngIf="emailFormControl.hasError('required')">
+      Email is <strong>required</strong>
+    </mat-error>
+  </mat-form-field>
+
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Password</mat-label>
+    <input type="password" matInput name="password" placeholder="Ex. 1234" [(ngModel)]="password">
+  </mat-form-field>
+  <button class="btn btn-primary" id="btn-login" mat-raised-button  (click)="login()">Login</button>
+  <mat-error *ngIf="wrongCredentials">Invalid Credentials, Please try again...</mat-error>
+</form>

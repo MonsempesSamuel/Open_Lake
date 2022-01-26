@@ -1,0 +1,111 @@
+
+
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true">
+  <mat-expansion-panel-header class="card-header py-3">
+    <h6 class="m-0 font-weight-bold text-primary"><a routerLink="/home" class="btn btn-primary btn-circle btn-sm"><i class="fas fa-arrow-left"></i></a>  List of lakes</h6>
+  </mat-expansion-panel-header>
+
+  <div class="card-body">
+    <a *ngIf="authService.isAuth" (click)="add_lake()" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Add a lake <i class="fas fa-plus fa-sm text-white-50"></i></a>
+    <br/><br/>
+
+    <!-- TODO IMPLEMENT FOOTABLE ON ANGULAR -->
+
+    <!-- <div class="table-responsive table footable">
+    <table class="table table-bordered table-hover footable footable-1 breakpoint-lg" style="display: table;">
+    <thead>
+    <tr class="footable-header">
+
+
+
+
+
+
+
+
+    <th style="display: table-cell;" class="footable-first-visible">Client</th><th data-breakpoints="xs" style="display: table-cell;">Distance</th><th data-breakpoints="xs" style="display: table-cell;">Prix</th><th data-breakpoints="xs" style="display: table-cell;">Véhicule</th><th style="display: table-cell;">Date</th><th data-breakpoints="xs" style="display: table-cell;">Régularisé</th><th class="hidden-xs" style="display: table-cell;">Commentaire</th><th class="hidden-xs footable-last-visible" style="display: table-cell;">Modifier</th></tr>
+  </thead>
+
+  <tbody><tr><td style="display: table-cell;" class="footable-first-visible">Jean (Bayonne)</td><td style="display: table-cell;">500 km</td><td style="display: table-cell;"> 225.5 €</td><td id="Deuchdeuch" style="display: table-cell;">Deuchdeuch (XX-123-XX) </td><td style="display: table-cell;">2019-05-01</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="22" class="reg" name="22"><label for="22"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="22" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (York)</td><td style="display: table-cell;">1400 km</td><td style="display: table-cell;"> 725.2 €</td><td id="blibli" style="display: table-cell;">blibli (XX-123-XX) </td><td style="display: table-cell;">2019-05-10</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="27" class="reg" name="27"><label for="27"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="27" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (Bayonne)</td><td style="display: table-cell;">50 km</td><td style="display: table-cell;"> 22.55 €</td><td id="Deuchdeuch" style="display: table-cell;">Deuchdeuch (XX-123-XX) </td><td style="display: table-cell;">2019-05-12</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="6" class="reg" name="6"><label for="6"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="6" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">CIC (lescar)</td><td style="display: table-cell;">6 km</td><td style="display: table-cell;"> 3.108 €</td><td id="blabla" style="display: table-cell;">blabla (XX-123-XX) </td><td style="display: table-cell;">2019-05-16</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="36" class="reg" name="36"><label for="36"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="36" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (Bayonne)</td><td style="display: table-cell;">50 km</td><td style="display: table-cell;"> 22.55 €</td><td id="Deuchdeuch" style="display: table-cell;">Deuchdeuch (XX-123-XX) </td><td style="display: table-cell;">2019-05-20</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="28" class="reg" name="28"><label for="28"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="28" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (Bayonne)</td><td style="display: table-cell;">600 km</td><td style="display: table-cell;"> 270.6 €</td><td id="Deuchdeuch" style="display: table-cell;">Deuchdeuch (XX-123-XX) </td><td style="display: table-cell;">2019-05-22</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="21" class="reg" name="21"><label for="21"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor risus ut diam placerat, non sodales metus convallis.</td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="21" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">CIC (lescar)</td><td style="display: table-cell;">6 km</td><td style="display: table-cell;"> 3.108 €</td><td id="blabla" style="display: table-cell;">blabla (XX-123-XX) </td><td style="display: table-cell;">2019-05-30</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="37" class="reg" name="37"><label for="37"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="37" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (York)</td><td style="display: table-cell;">1400 km</td><td style="display: table-cell;"> 725.2 €</td><td id="blibli" style="display: table-cell;">blibli (XX-123-XX) </td><td style="display: table-cell;">2019-05-31</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="14" class="reg" name="14"><label for="14"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;"></td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="14" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr><tr><td style="display: table-cell;" class="footable-first-visible">Jean (Bayonne)</td><td style="display: table-cell;">600 km</td><td style="display: table-cell;"> 270.6 €</td><td id="Deuchdeuch" style="display: table-cell;">Deuchdeuch (XX-123-XX) </td><td style="display: table-cell;">2019-05-31</td><td id="0" style="display: table-cell;"><input onchange="remplitest('true')" type="checkbox" id="9" class="reg" name="9"><label for="9"><span class="ui"></span></label></td><td class="hidden-xs" style="display: table-cell;">ééé</td><td class="hidden-xs footable-last-visible" style="display: table-cell;"><button type="button" id="9" class="btn btn-primary btn-modif" onclick="modif(this)"><span class="glyphicon glyphicon-pencil"></span></button></td></tr></tbody>
+</table></div> -->
+
+<div class="table-responsive">
+  <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+    <div class="row">
+      <div class="col-sm-12">
+        <table class="table table-bordered dataTable" id="dataTable" role="grid" aria-describedby="dataTable_info" style="width: 100%;" width="100%" cellspacing="0">
+          <thead>
+            <tr role="row">
+              <th>Name</th>
+              <th>Department</th>
+              <th>Address</th>
+              <th>Date of the last analysis</th>
+              <th style="width: 33px;">See the lake</th>
+              <th style="width: 33px;" *ngIf="authService.isAdmin">Modify the lake</th>
+              <th style="width: 33px;" *ngIf="authService.isAdmin">Delete the lake</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let lake of lakes; let i = index">
+              <td *ngIf="lake.id!==currentLake.id; else lakeName">{{ lake.name }}</td>
+              <ng-template #lakeName><input type="text" class="form-control" [(ngModel)]="currentLake.name"/></ng-template>
+              <td>Isere</td>
+              <td *ngIf="lake.id!==currentLake.id; else lakeAddress">{{ lake.address }}</td>
+              <ng-template #lakeAddress><input type="text" class="form-control" [(ngModel)]="currentLake.address"/></ng-template>
+              <td>15/10/2021</td>
+              <td class="center">
+                <a  routerLink="/lake-details/{{ lake.id }}" class="btn btn-primary btn-circle btn-lg">
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </td>
+              <td *ngIf="authService.isAdmin" class="center">
+                <a *ngIf="lake.id!==currentLake.id; else valiCanc" (click)="modify_lake(lake)" class="btn btn-warning btn-circle btn-lg">
+                  <i class="fas fa-edit"></i>
+                </a>
+                <ng-template #valiCanc>
+                  <a (click)="update_lake()" class="btn btn-success btn-circle btn-lg">
+                    <i class="fas fa-check"></i>
+                  </a>
+                </ng-template>
+              </td>
+              <td *ngIf="authService.isAdmin" class="center">
+                <a *ngIf="lake.id!==trashid; else trashThis" (click)="delete_lake(lake.id)" class="btn btn-danger btn-circle btn-lg">
+                  <i class="fas fa-trash"></i>
+                </a>
+                <ng-template #trashThis>
+                  <a style="box-shadow: 0px 0px 5px 1px red;" (click)="delete_lake(lake.id)" class="btn btn-danger btn-circle btn-lg">
+                    <i class="fas fa-trash"></i>
+                  </a>
+                  Sure ?
+                </ng-template>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-5">
+        <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to
+          <select (change)="change_page(1)" id="page_size"  name="dataTable_length" aria-controls="dataTable" class="custom-select custom-select-sm form-control form-control-sm" [(ngModel)]="page_size">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+          </select> of {{nbelement}} entries</div>
+        </div>
+        <div class="col-sm-12 col-md-7">
+          <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
+            <ul class="pagination">
+              <li (click)="change_page(this.page-1)" class="button paginate_button page-item previous" [ngClass]="{disabled: page=='1'}" id="dataTable_previous"><a aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+              <li (click)="change_page(nbpage)" *ngFor="let nbpage of nbpages" class="button paginate_button page-item " [ngClass]="{active: nbpage==page}"><a aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">{{nbpage}}</a></li>
+              <li (click)="change_page(this.page+1)" class="button paginate_button page-item next" [ngClass]="{disabled: page==nbpages.length}" id="dataTable_next"><a aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </div>
+    </mat-expansion-panel>
+</mat-accordion>

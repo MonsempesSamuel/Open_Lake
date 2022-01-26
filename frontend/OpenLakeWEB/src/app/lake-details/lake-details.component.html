@@ -1,0 +1,141 @@
+<mat-accordion class="card shadow mb-4">
+
+  <mat-expansion-panel [expanded]="true" >
+  <mat-expansion-panel-header class="card-header py-3">
+    <h6 class="m-0 font-weight-bold text-primary"><a routerLink="/lakes-list" class="btn btn-primary btn-circle btn-sm"><i class="fas fa-arrow-left"></i></a>  Lake {{ currentLake.name }} details</h6>
+  </mat-expansion-panel-header>
+  <div class="card-body">
+    <a *ngIf="authService.isAuth" (click)="add_analysis()" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Add an analysis <i class="fas fa-plus fa-sm text-white-50"></i></a>
+    <!-- <input type="file" class="file-upload" onchange="console.log(event.target.files)">
+    <a  (click)="add_analysis()" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> gay <i class="fas fa-plus fa-sm text-white-50"></i></a> -->
+    <input hidden type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+
+    <div *ngIf="authService.isAuth" class="file-upload"> {{fileName || "No file uploaded yet."}}
+       <button  mat-mini-fab color="primary" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm" (click)="fileUpload.click()">
+      Import analysis
+       </button>
+    </div>
+    <br/><br/>
+
+
+    <div class="table-responsive">
+      <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table table-bordered dataTable" id="dataTable" role="grid" aria-describedby="dataTable_info" style="width: 100%;" width="100%" cellspacing="0">
+              <thead>
+                <tr role="row">
+                  <th>Date</th>
+                  <th>Time</th>
+                  <th>Duration</th>
+                  <th>Drone</th>
+                  <th>PH</th>
+                  <th>Conductivity</th>
+                  <th>Temperature</th>
+                  <th style="width: 33px;">See the analysis</th>
+                  <th style="width: 33px;" *ngIf="authService.isAdmin">Modify the analysis</th>
+                  <th style="width: 33px;" *ngIf="authService.isAdmin">Delete the analysis</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let analysis of analyzes; let i = index">
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisdatenav">{{ analysis.datenav }}</td>
+                  <ng-template #analysisdatenav><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.datenav"/></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisheurenav">{{ analysis.hournav }}</td>
+                  <ng-template #analysisheurenav><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.hournav"/></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisdureenav">{{ analysis.durationnav }}</td>
+                  <ng-template #analysisdureenav><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.durationnav"/></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisdrone">{{ analysis.drone }}</td>
+                  <ng-template #analysisdrone><td><select></select></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisavg_ph">{{ analysis.avg_ph }}</td>
+                  <ng-template #analysisavg_ph><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.avg_ph"/></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisavg_conduc">{{ analysis.avg_conduc }}</td>
+                  <ng-template #analysisavg_conduc><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.avg_conduc"/></td></ng-template>
+                  <td *ngIf="analysis.id!==currentAnalysis.id; else analysisavg_temp">{{ analysis.avg_temp }}</td>
+                  <ng-template #analysisavg_temp><td><input type="text" class="form-control" [(ngModel)]="currentAnalysis.avg_temp"/></td></ng-template>
+
+                  <td class="center">
+                    <a  routerLink="/analysis-details/{{ analysis.id }}" [queryParams]="{lake: this.route.snapshot.params.id}" class="btn btn-primary btn-circle btn-lg">
+                      <i class="fas fa-arrow-right"></i>
+                    </a>
+                  </td>
+                  <td *ngIf="authService.isAdmin" class="center">
+                    <a *ngIf="analysis.id!==currentAnalysis.id; else valiCanc" (click)="modify_analysis(analysis)" class="btn btn-warning btn-circle btn-lg">
+                      <i class="fas fa-edit"></i>
+                    </a>
+                    <ng-template #valiCanc>
+                      <a (click)="update_analysis()" class="btn btn-success btn-circle btn-lg">
+                        <i class="fas fa-check"></i>
+                      </a>
+                    </ng-template>
+                  </td>
+                  <td *ngIf="authService.isAdmin" class="center">
+                    <a *ngIf="analysis.id!==trashid; else trashThis" (click)="delete_analysis(analysis.id)" class="btn btn-danger btn-circle btn-lg">
+                      <i class="fas fa-trash"></i>
+                    </a>
+                    <ng-template #trashThis>
+                      <a style="box-shadow: 0px 0px 5px 1px red;" (click)="delete_analysis(analysis.id)" class="btn btn-danger btn-circle btn-lg">
+                        <i class="fas fa-trash"></i>
+                      </a>
+                      Sure ?
+                    </ng-template>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-5">
+            <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to
+              <select (change)="change_page(1)" id="page_size"  name="dataTable_length" aria-controls="dataTable" class="custom-select custom-select-sm form-control form-control-sm" [(ngModel)]="page_size">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="15">15</option>
+                <option value="20">20</option>
+              </select> of {{nbelement}} entries</div>
+            </div>
+            <div class="col-sm-12 col-md-7">
+              <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
+                <ul class="pagination">
+                  <li (click)="change_page(this.page-1)" class="button paginate_button page-item previous" [ngClass]="{disabled: page=='1'}" id="dataTable_previous"><a aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                  <li (click)="change_page(nbpage)" *ngFor="let nbpage of nbpages" class="button paginate_button page-item " [ngClass]="{active: nbpage==page}"><a aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">{{nbpage}}</a></li>
+                  <li (click)="change_page(this.page+1)" class="button paginate_button page-item next" [ngClass]="{disabled: page==nbpages.length}" id="dataTable_next"><a aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true" >
+    <mat-expansion-panel-header class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary"> Lake {{ currentLake.name }} PH mean per date</h6>
+    </mat-expansion-panel-header>
+    <div echarts [options]="ph_date" class="demo-chart"></div>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true" >
+    <mat-expansion-panel-header class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary"> Lake {{ currentLake.name }} temperature mean per date</h6>
+    </mat-expansion-panel-header>
+    <div echarts [options]="temp_date" class="demo-chart"></div>
+  </mat-expansion-panel>
+</mat-accordion>
+
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true" >
+    <mat-expansion-panel-header class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary"> Lake {{ currentLake.name }} conductivity mean per date</h6>
+    </mat-expansion-panel-header>
+    <div echarts [options]="temp_conduc" class="demo-chart"></div>
+  </mat-expansion-panel>
+</mat-accordion>
+
+

@@ -1,0 +1,33 @@
+
+
+  <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add a lake</h5>
+  </div>
+        <div class="submit-form">
+            <div class="form-group">
+              <label for="name">Lake name</label>
+                <input
+                type="text"
+                class="form-control"
+                id="name"
+                required="required"
+                [(ngModel)]="lake.name"
+                name="name"
+                />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address</label>
+              <input
+                class="form-control"
+                id="address"
+                required="required"
+                [(ngModel)]="lake.address"
+                name="address"
+              />
+            </div>
+            <div class="modal-footer">
+              <button [mat-dialog-close]="false" class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <button (click)="saveLake()" [disabled]="!lake.address||!lake.name" class="btn btn-primary">Submit</button>
+            </div>
+          </div>

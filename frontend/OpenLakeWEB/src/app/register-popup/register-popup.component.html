@@ -1,0 +1,30 @@
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+</div>
+<form class="login-form">
+  <mat-error *ngIf="wrongCredentials">{{this.errorusername}}</mat-error>
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Username</mat-label>
+    <input matInput name="username" placeholder="Ex. 1234" [(ngModel)]="username">
+  </mat-form-field>
+
+  <mat-error *ngIf="wrongCredentials">{{this.erroremail}}</mat-error>
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Email</mat-label>
+    <input type="email" name="email" matInput [formControl]="emailFormControl" [errorStateMatcher]="matcher" placeholder="Ex. pat@example.com" [(ngModel)]="email">
+  </mat-form-field>
+
+  <mat-error *ngIf="wrongCredentials">{{this.errorpassword1}}</mat-error>
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Password1</mat-label>
+    <input type="password" matInput name="password" placeholder="Ex. 1234" [(ngModel)]="password1">
+  </mat-form-field>
+
+
+  <mat-error *ngIf="wrongCredentials">{{this.errorpassword2}}</mat-error>
+  <mat-form-field class="input-full-width" appearance="fill">
+    <mat-label>Password2</mat-label>
+    <input type="password" matInput name="password" placeholder="Ex. 1234" [(ngModel)]="password2">
+  </mat-form-field>
+  <button class="btn btn-primary" id="btn-login" mat-raised-button  (click)="register()">Register</button>
+</form>

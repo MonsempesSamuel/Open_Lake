@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Views &mdash; OpenLake APIs 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Models" href="models.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OpenLake APIs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-us.html">About us</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models.html">Models</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Views</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OpenLake APIs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Views</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/modules/views.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="module-openlake_core.views">
+<span id="views"></span><h1>Views<a class="headerlink" href="#module-openlake_core.views" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.PilotViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">PilotViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.PilotViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>This viewset automatically provides <cite>list</cite>, <cite>create</cite>, <cite>retrieve</cite>,
+<cite>update</cite> and <cite>destroy</cite> actions.</p>
+<p>Queryset is the result of the query performed on the “Pilot” object, it is sorted by the “lastname”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.PilotViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[]&gt;</span></em><a class="headerlink" href="#openlake_core.views.PilotViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.PilotViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.PilotViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.PilotSerializer</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.UserViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">UserViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.UserViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “User” object, it is sorted by the “lastname”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.UserViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[]&gt;</span></em><a class="headerlink" href="#openlake_core.views.UserViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.UserViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.UserViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.UserSerializer</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.ContributorViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">ContributorViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ContributorViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “Contributor” object, it is sorted by the “lastname”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.ContributorViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[]&gt;</span></em><a class="headerlink" href="#openlake_core.views.ContributorViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.ContributorViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.ContributorViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.ContributorSerializer</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.DroneViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">DroneViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DroneViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “Drone” object, it is sorted by the “name”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DroneViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[]&gt;</span></em><a class="headerlink" href="#openlake_core.views.DroneViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DroneViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.DroneViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.DroneSerializer</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.LakeViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">LakeViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.LakeViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “Lake” object, it is sorted by the “name”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.LakeViewSet.permission_classes">
+<span class="sig-name descname"><span class="pre">permission_classes</span></span><em class="property"> <span class="pre">=</span> <span class="pre">(&lt;class</span> <span class="pre">'rest_framework.permissions.IsAuthenticatedOrReadOnly'&gt;,)</span></em><a class="headerlink" href="#openlake_core.views.LakeViewSet.permission_classes" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.LakeViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[&lt;Lake:</span> <span class="pre">Bresses</span> <span class="pre">inférieur&gt;,</span> <span class="pre">&lt;Lake:</span> <span class="pre">Lauzanier&gt;]&gt;</span></em><a class="headerlink" href="#openlake_core.views.LakeViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.LakeViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.LakeViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.LakeSerializer</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.LakeViewSet.pagination_class">
+<span class="sig-name descname"><span class="pre">pagination_class</span></span><a class="headerlink" href="#openlake_core.views.LakeViewSet.pagination_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.paginations.CustomPagination</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">AnalysisViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.AnalysisViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “Analysis” object, it is sorted by the “datenav”.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet.permission_classes">
+<span class="sig-name descname"><span class="pre">permission_classes</span></span><em class="property"> <span class="pre">=</span> <span class="pre">(&lt;class</span> <span class="pre">'rest_framework.permissions.IsAuthenticatedOrReadOnly'&gt;,)</span></em><a class="headerlink" href="#openlake_core.views.AnalysisViewSet.permission_classes" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(4)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(3)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(2)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(7)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(1)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(6)&gt;,</span> <span class="pre">&lt;Analysis:</span> <span class="pre">Analysis</span> <span class="pre">object</span> <span class="pre">(5)&gt;]&gt;</span></em><a class="headerlink" href="#openlake_core.views.AnalysisViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.AnalysisViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.AnalysisSerializer</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet.pagination_class">
+<span class="sig-name descname"><span class="pre">pagination_class</span></span><a class="headerlink" href="#openlake_core.views.AnalysisViewSet.pagination_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.paginations.CustomPagination</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.AnalysisViewSet.get_queryset">
+<span class="sig-name descname"><span class="pre">get_queryset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.AnalysisViewSet.get_queryset" title="Permalink to this definition"></a></dt>
+<dd><p>Optionally restricts the returned purchases to a given user,
+by filtering against a <cite>username</cite> query parameter in the URL.
+<a class="reference external" href="https://www.django-rest-framework.org/api-guide/filtering/#filtering-against-the-url">https://www.django-rest-framework.org/api-guide/filtering/#filtering-against-the-url</a></p>
+<ul class="simple">
+<li><p>Classify analyzes according to navigation date</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">DataViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>Queryset is the result of the query performed on the “Data” object, it is sorted by the “id”.</p>
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data">
+<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data" title="Permalink to this definition"></a></dt>
+<dd><p>Class to represent a Data.</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.analysis">
+<span class="sig-name descname"><span class="pre">analysis</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.analysis" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Analysis class</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.analysis_id">
+<span class="sig-name descname"><span class="pre">analysis_id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.analysis_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.conductivity">
+<span class="sig-name descname"><span class="pre">conductivity</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.conductivity" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store conductivity.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 2 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.freqbat">
+<span class="sig-name descname"><span class="pre">freqbat</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.freqbat" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store frequency of battery.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 2 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.id" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.latgps">
+<span class="sig-name descname"><span class="pre">latgps</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.latgps" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store latitude.</p>
+<ul class="simple">
+<li><p>max_digits: 12 digits</p></li>
+<li><p>decimal_places: 8 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.longgps">
+<span class="sig-name descname"><span class="pre">longgps</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.longgps" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store longitude.</p>
+<ul class="simple">
+<li><p>max_digits: 12 digits</p></li>
+<li><p>decimal_places: 8 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.objects">
+<span class="sig-name descname"><span class="pre">objects</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;django.db.models.manager.Manager</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.objects" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.ph">
+<span class="sig-name descname"><span class="pre">ph</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.ph" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store ph.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 4 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Data.temperature">
+<span class="sig-name descname"><span class="pre">temperature</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Data.temperature" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store temperature.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 4 places</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis">
+<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Analysis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis" title="Permalink to this definition"></a></dt>
+<dd><p>Class to represent an Analysis.</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.avg_conduc">
+<span class="sig-name descname"><span class="pre">avg_conduc</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.avg_conduc" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.avg_ph">
+<span class="sig-name descname"><span class="pre">avg_ph</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.avg_ph" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.avg_temp">
+<span class="sig-name descname"><span class="pre">avg_temp</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.avg_temp" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.data_set">
+<span class="sig-name descname"><span class="pre">data_set</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.data_set" title="Permalink to this definition"></a></dt>
+<dd><p>Accessor to the related objects manager on the reverse side of a
+many-to-one relation.</p>
+<p>In the example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Child</span><span class="p">(</span><span class="n">Model</span><span class="p">):</span>
+    <span class="n">parent</span> <span class="o">=</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="n">Parent</span><span class="p">,</span> <span class="n">related_name</span><span class="o">=</span><span class="s1">&#39;children&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Parent.children</span></code> is a <code class="docutils literal notranslate"><span class="pre">ReverseManyToOneDescriptor</span></code> instance.</p>
+<p>Most of the implementation is delegated to a dynamically defined manager
+class built by <code class="docutils literal notranslate"><span class="pre">create_forward_many_to_many_manager()</span></code> defined below.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.datenav">
+<span class="sig-name descname"><span class="pre">datenav</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.datenav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store date of navigation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.drone">
+<span class="sig-name descname"><span class="pre">drone</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.drone" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Drone class</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.drone_id">
+<span class="sig-name descname"><span class="pre">drone_id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.drone_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.durationnav">
+<span class="sig-name descname"><span class="pre">durationnav</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.durationnav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store time of navigation.</p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.get_next_by_datenav">
+<span class="sig-name descname"><span class="pre">get_next_by_datenav</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">*</span></em>, <em class="sig-param"><span class="pre">field=&lt;django.db.models.fields.DateField:</span> <span class="pre">datenav&gt;</span></em>, <em class="sig-param"><span class="pre">is_next=True</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.get_next_by_datenav" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.get_previous_by_datenav">
+<span class="sig-name descname"><span class="pre">get_previous_by_datenav</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">*</span></em>, <em class="sig-param"><span class="pre">field=&lt;django.db.models.fields.DateField:</span> <span class="pre">datenav&gt;</span></em>, <em class="sig-param"><span class="pre">is_next=False</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.get_previous_by_datenav" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.hournav">
+<span class="sig-name descname"><span class="pre">hournav</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.hournav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store hour of navigation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.id" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.lake">
+<span class="sig-name descname"><span class="pre">lake</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.lake" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Lake class</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.lake_id">
+<span class="sig-name descname"><span class="pre">lake_id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.lake_id" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Analysis.objects">
+<span class="sig-name descname"><span class="pre">objects</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;django.db.models.manager.Manager</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#openlake_core.views.DataViewSet.Analysis.objects" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake">
+<em class="property"><span class="pre">class</span> </em><span class="sig-name descname"><span class="pre">Lake</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake" title="Permalink to this definition"></a></dt>
+<dd><p>Class to represent a Lake.http://127.0.0.1:8000/admin/</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.address">
+<span class="sig-name descname"><span class="pre">address</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.address" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store lake address.</p>
+<ul class="simple">
+<li><p>max_length: 200 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.analysis_set">
+<span class="sig-name descname"><span class="pre">analysis_set</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.analysis_set" title="Permalink to this definition"></a></dt>
+<dd><p>Accessor to the related objects manager on the reverse side of a
+many-to-one relation.</p>
+<p>In the example:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Child</span><span class="p">(</span><span class="n">Model</span><span class="p">):</span>
+    <span class="n">parent</span> <span class="o">=</span> <span class="n">ForeignKey</span><span class="p">(</span><span class="n">Parent</span><span class="p">,</span> <span class="n">related_name</span><span class="o">=</span><span class="s1">&#39;children&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">Parent.children</span></code> is a <code class="docutils literal notranslate"><span class="pre">ReverseManyToOneDescriptor</span></code> instance.</p>
+<p>Most of the implementation is delegated to a dynamically defined manager
+class built by <code class="docutils literal notranslate"><span class="pre">create_forward_many_to_many_manager()</span></code> defined below.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.id">
+<span class="sig-name descname"><span class="pre">id</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.id" title="Permalink to this definition"></a></dt>
+<dd><p>A wrapper for a deferred-loading field. When the value is read from this
+object the first time, the query is executed.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.name">
+<span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.name" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store lake name.</p>
+<ul class="simple">
+<li><p>max_length: 70 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.Lake.objects">
+<span class="sig-name descname"><span class="pre">objects</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;django.db.models.manager.Manager</span> <span class="pre">object&gt;</span></em><a class="headerlink" href="#openlake_core.views.DataViewSet.Lake.objects" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.permission_classes">
+<span class="sig-name descname"><span class="pre">permission_classes</span></span><em class="property"> <span class="pre">=</span> <span class="pre">(&lt;class</span> <span class="pre">'rest_framework.permissions.IsAuthenticatedOrReadOnly'&gt;,)</span></em><a class="headerlink" href="#openlake_core.views.DataViewSet.permission_classes" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.queryset">
+<span class="sig-name descname"><span class="pre">queryset</span></span><em class="property"> <span class="pre">=</span> <span class="pre">&lt;QuerySet</span> <span class="pre">[&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(1)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(2)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(3)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(4)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(5)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(6)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(7)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(8)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(9)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(10)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(11)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(12)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(13)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(14)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(15)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(16)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(17)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(18)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(19)&gt;,</span> <span class="pre">&lt;Data:</span> <span class="pre">Data</span> <span class="pre">object</span> <span class="pre">(20)&gt;,</span> <span class="pre">'...(remaining</span> <span class="pre">elements</span> <span class="pre">truncated)...']&gt;</span></em><a class="headerlink" href="#openlake_core.views.DataViewSet.queryset" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.DataSerializer</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.pagination_class">
+<span class="sig-name descname"><span class="pre">pagination_class</span></span><a class="headerlink" href="#openlake_core.views.DataViewSet.pagination_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.paginations.CustomPagination</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.get_queryset">
+<span class="sig-name descname"><span class="pre">get_queryset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.get_queryset" title="Permalink to this definition"></a></dt>
+<dd><p>Optionally restricts the returned purchases to a given user,
+by filtering against a <cite>username</cite> query parameter in the URL.
+<a class="reference external" href="https://www.django-rest-framework.org/api-guide/filtering/#filtering-against-the-url">https://www.django-rest-framework.org/api-guide/filtering/#filtering-against-the-url</a></p>
+<ul class="simple">
+<li><p>Classify data according to their ID</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.put">
+<span class="sig-name descname"><span class="pre">put</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.put" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>Improved version of the native API PUT function</p></li>
+<li><dl class="simple">
+<dt>Addition of the calculation of the average of each data by calling the function <cite>__postavg</cite></dt><dd><ul>
+<li><p>Calculate the average of each data : pH, Temperature, Conductivity</p></li>
+<li><p>Storage in DB</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.create">
+<span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.create" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>Improved version of the native API PUT function</p></li>
+<li><dl class="simple">
+<dt>Addition of the calculation of the average of each data by calling the function <cite>__postavg</cite></dt><dd><ul>
+<li><p>Calculate the average of each data : pH, Temperature, Conductivity</p></li>
+<li><p>Storage in DB</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.destroy">
+<span class="sig-name descname"><span class="pre">destroy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.destroy" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>Allows you to delete a value in the Database: Delete</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.DataViewSet.perform_destroy">
+<span class="sig-name descname"><span class="pre">perform_destroy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">instance</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.DataViewSet.perform_destroy" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>Allows you to delete a value in the Database: Delete</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">ImportAnalysisViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ImportAnalysisViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>This class helps us to import a CSV file.</p>
+<p>This CSV file contenent data</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.ImportAnalysisViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.ImportAnalysisSerializer</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisViewSet.list">
+<span class="sig-name descname"><span class="pre">list</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ImportAnalysisViewSet.list" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisViewSet.create">
+<span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ImportAnalysisViewSet.create" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisSiteViewSet">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.views.</span></span><span class="sig-name descname"><span class="pre">ImportAnalysisSiteViewSet</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ImportAnalysisSiteViewSet" title="Permalink to this definition"></a></dt>
+<dd><p>This class helps us to import a file (File from ‘<a class="reference external" href="https://si-ola.inrae.fr">https://si-ola.inrae.fr</a>’).</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisSiteViewSet.serializer_class">
+<span class="sig-name descname"><span class="pre">serializer_class</span></span><a class="headerlink" href="#openlake_core.views.ImportAnalysisSiteViewSet.serializer_class" title="Permalink to this definition"></a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">openlake_core.serializers.ImportSiteOLAlaSerializer</span></code></p>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="openlake_core.views.ImportAnalysisSiteViewSet.create">
+<span class="sig-name descname"><span class="pre">create</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">request</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.views.ImportAnalysisSiteViewSet.create" title="Permalink to this definition"></a></dt>
+<dd><p>This function get a csv file from OLA site
+and adapt it and insert value in the Database</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="models.html" class="btn btn-neutral float-left" title="Models" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Open-Lake Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

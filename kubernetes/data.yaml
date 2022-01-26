@@ -1,0 +1,37 @@
+# apiVersion: storage.k8s.io/v1
+# kind: StorageClass
+# metadata:
+#   name: demo
+# provisioner: microk8s.io/hostpath
+# reclaimPolicy: Delete
+# volumeBindingMode: Immediate
+# ---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+    name: pvc-openlake-frontend
+    namespace: test2
+    labels:
+      app: openlake-frontend
+spec:
+    accessModes:
+    - ReadWriteOnce
+    # storageClassName: microk8s-hostpath #Kubernetes 1.16.15 Obligatoire
+    resources:
+      requests:
+        storage: 5Gi
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+    name: pvc-openlake-backend
+    namespace: test2
+    labels:
+      app: openlake-backend
+spec:
+    accessModes:
+    - ReadWriteOnce
+    # storageClassName: microk8s-hostpath #Kubernetes 1.16.15 Obligatoire
+    resources:
+      requests:
+        storage: 5Gi

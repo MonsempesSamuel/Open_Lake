@@ -1,0 +1,101 @@
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-openlake-frontend
+  namespace: test2
+spec:
+  type: NodePort
+  ports:
+  - port: 4568
+    targetPort: 4568
+  selector:
+    app: openlake-frontend
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-openlake-config-file
+  namespace: test2
+data:
+  docker_django-prod.env: |
+    DEBUG=0
+    SECRET_KEY=change_me
+    DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+    SQL_ENGINE=django.db.backends.postgresql
+    SQL_DATABASE=openlake
+    SQL_USER=openlake
+    SQL_PASSWORD=openlake
+    SQL_HOST=db
+    SQL_PORT=5432
+    DATABASE=postgres
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment-openlake-frontend
+  namespace: test2
+  labels:
+    app: openlake-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: openlake-frontend
+  template:
+    metadata:
+      labels:
+        app: openlake-frontend
+    spec:
+      imagePullSecrets:
+      - name: regcred
+      containers:
+      - name: openlake-frontend
+        image: gitlab.ensimag.fr:5050/monsemps/open-lake-health/openlake-django
+        # command: ["/bin/sh"]
+        # args: ["-c", "while true; do echo hello; sleep 10;done"]
+        args: ["/home/django/venv/bin/gunicorn", "OpenLakeAPIs.wsgi:application", "--bind", "0.0.0.0:4568"]
+        resources:
+          requests:
+            memory: "512Mi" #128Mi
+            cpu: "1000m"
+          limits:
+            memory: "2048Mi" #1024Mi
+            cpu: "4000m"
+        ports:
+        - containerPort: 4568
+        env:
+          - name: DEBUG
+            value: "0"
+          - name: SECRET_KEY
+            value: change_me
+          - name: DJANGO_ALLOWED_HOSTS
+            value: open-lake.fr localhost 127.0.0.1 [::1]
+          - name: SQL_ENGINE
+            value: django.db.backends.postgresql
+          - name: SQL_DATABASE
+            value: openlake
+          - name: SQL_USER
+            value: openlake
+          - name: SQL_PASSWORD
+            value: openlake
+          - name: SQL_HOST
+            value: svc-openlake-backend
+          - name: SQL_PORT
+            value: "5432"
+          - name: DATABASE
+            value: postgres
+        volumeMounts: # Step 3: Mounting volume obtained from Persistent Volume Claim
+        - name: pv-openlake-frontend
+          mountPath: /home/django/OpenLakeAPIs/staticfiles
+        # - name: pv-openlake-config-file
+        #   mountPath: /etc/openlake/openprod-server.conf
+        #   subPath: openprod-server.conf
+      volumes: #Step 2: Obtain it and name it as 'name'
+      - name: pv-openlake-frontend
+        persistentVolumeClaim: #Step 1: Ask for a volume
+          claimName: pvc-openlake-frontend
+      # - name: pv-openlake-config-file
+      #   configMap:
+      #     name: configmap-openlake-config-file
+

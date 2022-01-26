@@ -1,0 +1,46 @@
+
+
+  <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add an analysis</h5>
+  </div>
+        <div class="submit-form">
+            <div class="form-group">
+              <label for="datenav">datenav</label>
+                <input
+                type="text"
+                class="form-control"
+                id="datenav"
+                required
+                [(ngModel)]="analysis.datenav"
+                name="datenav"
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="heurenav">hournav</label>
+                <input
+                  class="form-control"
+                  id="heurenav"
+                  required
+                  [(ngModel)]="analysis.hournav"
+                  name="heurenav"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="dureenav">durationnav</label>
+                <input
+                  class="form-control"
+                  id="dureenav"
+                  required
+                  [(ngModel)]="analysis.durationnav"
+                  name="dureenav"
+                />
+              </div>
+
+              <div class="modal-footer">
+                <button [mat-dialog-close]="false" class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                <button (click)="saveAnalysis()" [disabled]="!analysis.durationnav||!analysis.hournav||!analysis.datenav" class="btn btn-primary">Submit</button>
+              </div>
+
+        </div>

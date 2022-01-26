@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Models &mdash; OpenLake APIs 0.1 documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Views" href="views.html" />
+    <link rel="prev" title="About us" href="about-us.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> OpenLake APIs
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of content:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-us.html">About us</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">OpenLake APIs</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Models</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/modules/models.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="module-openlake_core.models">
+<span id="models"></span><h1>Models<a class="headerlink" href="#module-openlake_core.models" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Pilot">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Pilot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Pilot" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>all these classes inherit from django.db.models.Model.</p>
+<dl class="simple">
+<dt>Resources:</dt><dd><p><a class="reference external" href="https://docs.djangoproject.com/en/3.2/ref/models/fields/">Django fields documentation</a></p>
+</dd>
+</dl>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Pilot.lastname">
+<span class="sig-name descname"><span class="pre">lastname</span></span><a class="headerlink" href="#openlake_core.models.Pilot.lastname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store pilot lastname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Pilot.firstname">
+<span class="sig-name descname"><span class="pre">firstname</span></span><a class="headerlink" href="#openlake_core.models.Pilot.firstname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store pilot firstname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Pilot.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Pilot.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Pilot.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Pilot.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.User">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">User</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.User" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent an User.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.User.lastname">
+<span class="sig-name descname"><span class="pre">lastname</span></span><a class="headerlink" href="#openlake_core.models.User.lastname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store user lastname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.User.firstname">
+<span class="sig-name descname"><span class="pre">firstname</span></span><a class="headerlink" href="#openlake_core.models.User.firstname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store user firstname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.User.email">
+<span class="sig-name descname"><span class="pre">email</span></span><a class="headerlink" href="#openlake_core.models.User.email" title="Permalink to this definition"></a></dt>
+<dd><p>A email field to store user email.</p>
+<ul class="simple">
+<li><p>max_length: 100 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.User.city">
+<span class="sig-name descname"><span class="pre">city</span></span><a class="headerlink" href="#openlake_core.models.User.city" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store user city.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.User.phone">
+<span class="sig-name descname"><span class="pre">phone</span></span><a class="headerlink" href="#openlake_core.models.User.phone" title="Permalink to this definition"></a></dt>
+<dd><p>A phone field to store user phone.</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.User.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.User.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.User.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.User.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Contributor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Contributor" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent a Contributor.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.lastname">
+<span class="sig-name descname"><span class="pre">lastname</span></span><a class="headerlink" href="#openlake_core.models.Contributor.lastname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store contributor lastname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.firstname">
+<span class="sig-name descname"><span class="pre">firstname</span></span><a class="headerlink" href="#openlake_core.models.Contributor.firstname" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store contributor firstname.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.email">
+<span class="sig-name descname"><span class="pre">email</span></span><a class="headerlink" href="#openlake_core.models.Contributor.email" title="Permalink to this definition"></a></dt>
+<dd><p>A email field to store contributor email.</p>
+<ul class="simple">
+<li><p>max_length: 100 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.city">
+<span class="sig-name descname"><span class="pre">city</span></span><a class="headerlink" href="#openlake_core.models.Contributor.city" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store contributor city.</p>
+<ul class="simple">
+<li><p>max_length: 60 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.phone">
+<span class="sig-name descname"><span class="pre">phone</span></span><a class="headerlink" href="#openlake_core.models.Contributor.phone" title="Permalink to this definition"></a></dt>
+<dd><p>A phone field to store contributor phone.</p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Contributor.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Contributor.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Contributor.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Drone">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Drone</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Drone" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent a Drone.</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Drone.name">
+<span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#openlake_core.models.Drone.name" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store drone name.</p>
+<ul class="simple">
+<li><p>max_length: 70 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Drone.description">
+<span class="sig-name descname"><span class="pre">description</span></span><a class="headerlink" href="#openlake_core.models.Drone.description" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store drone description.</p>
+<ul class="simple">
+<li><p>max_length: 200 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Drone.contributor">
+<span class="sig-name descname"><span class="pre">contributor</span></span><a class="headerlink" href="#openlake_core.models.Drone.contributor" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Contributor class</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Drone.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Drone.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Drone.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Drone.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Lake">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Lake</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Lake" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent a Lake.http://127.0.0.1:8000/admin/</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Lake.name">
+<span class="sig-name descname"><span class="pre">name</span></span><a class="headerlink" href="#openlake_core.models.Lake.name" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store lake name.</p>
+<ul class="simple">
+<li><p>max_length: 70 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Lake.address">
+<span class="sig-name descname"><span class="pre">address</span></span><a class="headerlink" href="#openlake_core.models.Lake.address" title="Permalink to this definition"></a></dt>
+<dd><p>A string field to store lake address.</p>
+<ul class="simple">
+<li><p>max_length: 200 characters</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Lake.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Lake.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Lake.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Lake.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Analysis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Analysis" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent an Analysis.</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Analysis.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Analysis.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.datenav">
+<span class="sig-name descname"><span class="pre">datenav</span></span><a class="headerlink" href="#openlake_core.models.Analysis.datenav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store date of navigation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.hournav">
+<span class="sig-name descname"><span class="pre">hournav</span></span><a class="headerlink" href="#openlake_core.models.Analysis.hournav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store hour of navigation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.durationnav">
+<span class="sig-name descname"><span class="pre">durationnav</span></span><a class="headerlink" href="#openlake_core.models.Analysis.durationnav" title="Permalink to this definition"></a></dt>
+<dd><p>A data field to store time of navigation.</p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.drone">
+<span class="sig-name descname"><span class="pre">drone</span></span><a class="headerlink" href="#openlake_core.models.Analysis.drone" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Drone class</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Analysis.lake">
+<span class="sig-name descname"><span class="pre">lake</span></span><a class="headerlink" href="#openlake_core.models.Analysis.lake" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Lake class</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="openlake_core.models.Data">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">openlake_core.models.</span></span><span class="sig-name descname"><span class="pre">Data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#openlake_core.models.Data" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.db.models.base.Model</span></code></p>
+<p>Class to represent a Data.</p>
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Data.DoesNotExist">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">DoesNotExist</span></span><a class="headerlink" href="#openlake_core.models.Data.DoesNotExist" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.ObjectDoesNotExist</span></code></p>
+</dd></dl>
+
+<dl class="py exception">
+<dt class="sig sig-object py" id="openlake_core.models.Data.MultipleObjectsReturned">
+<em class="property"><span class="pre">exception</span> </em><span class="sig-name descname"><span class="pre">MultipleObjectsReturned</span></span><a class="headerlink" href="#openlake_core.models.Data.MultipleObjectsReturned" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">django.core.exceptions.MultipleObjectsReturned</span></code></p>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.latgps">
+<span class="sig-name descname"><span class="pre">latgps</span></span><a class="headerlink" href="#openlake_core.models.Data.latgps" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store latitude.</p>
+<ul class="simple">
+<li><p>max_digits: 12 digits</p></li>
+<li><p>decimal_places: 8 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.longgps">
+<span class="sig-name descname"><span class="pre">longgps</span></span><a class="headerlink" href="#openlake_core.models.Data.longgps" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store longitude.</p>
+<ul class="simple">
+<li><p>max_digits: 12 digits</p></li>
+<li><p>decimal_places: 8 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.temperature">
+<span class="sig-name descname"><span class="pre">temperature</span></span><a class="headerlink" href="#openlake_core.models.Data.temperature" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store temperature.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 4 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.ph">
+<span class="sig-name descname"><span class="pre">ph</span></span><a class="headerlink" href="#openlake_core.models.Data.ph" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store ph.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 4 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.conductivity">
+<span class="sig-name descname"><span class="pre">conductivity</span></span><a class="headerlink" href="#openlake_core.models.Data.conductivity" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store conductivity.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 2 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.freqbat">
+<span class="sig-name descname"><span class="pre">freqbat</span></span><a class="headerlink" href="#openlake_core.models.Data.freqbat" title="Permalink to this definition"></a></dt>
+<dd><p>A decimal field to store frequency of battery.</p>
+<ul class="simple">
+<li><p>max_digits: 8 digits</p></li>
+<li><p>decimal_places: 2 places</p></li>
+</ul>
+</dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="openlake_core.models.Data.analysis">
+<span class="sig-name descname"><span class="pre">analysis</span></span><a class="headerlink" href="#openlake_core.models.Data.analysis" title="Permalink to this definition"></a></dt>
+<dd><ul class="simple">
+<li><p>ForeignKey to Analysis class</p></li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="about-us.html" class="btn btn-neutral float-left" title="About us" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="views.html" class="btn btn-neutral float-right" title="Views" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Open-Lake Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

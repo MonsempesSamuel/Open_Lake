@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <style>
+    html {
+      background-color: grey;
+    }
+
+    block {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:11%;
+      Margin-top:5px;
+      text-align: center ;
+    }
+
+    .fondecran {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -100;
+    }
+
+    img{
+      width:299%;
+    }
+
+    img:hover{
+      width:300%;
+      box-shadow: 0px 1px 10px 3px white;
+    }
+    .wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 25%;
+    }
+
+  </style>
+</head>
+<body >
+  <div id="particles-js" class="fondecran">
+  </div>
+  <script>document.getElementById("particles-js").style.height = document.body.clientHeight+"px" </script>
+
+      <div class="wrapper">
+    <block>
+      <a href="https://open-lake.fr"><img src="Website.PNG"></a>
+      <p> Website </p>
+    </block>
+    <block>
+      <a href="frontend_doc"><img src="Frontend.png"></a>
+      <p> Frontend documentation </p>
+    </block>
+    <block>
+      <a href="https://gitlab.ensimag.fr/monsemps/open-lake-health/-/wikis/home"><img src="Wiki.png"></a>
+      <p> Wiki </p>
+    </block>
+    <block>
+      <a href="backend_doc"><img src="Backend.png"></a>
+      <p> Backend documentation </p>
+    </block>
+</div>
+
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+  </body>
+  </html>

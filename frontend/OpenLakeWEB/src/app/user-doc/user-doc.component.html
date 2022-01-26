@@ -1,0 +1,26 @@
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true" >
+    <mat-expansion-panel-header class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary">   Management of the lakes</h6>
+    </mat-expansion-panel-header>
+    <h6>
+      The management of lakes is carried out in the menu  <a routerLink="/lakes-list" routerLinkActive="active">lake-list</a>. <br>An unregistered user can see the entire list of lakes.<br>
+      For an authenticated user, it is possible to add, modify or delete information on the lake in question.<br>
+    </h6>
+
+  </mat-expansion-panel>
+</mat-accordion>
+<mat-accordion class="card shadow mb-4">
+  <mat-expansion-panel [expanded]="true" >
+    <mat-expansion-panel-header class="card-header py-3">
+      <h6 class="m-0 font-weight-bold text-primary">  Management of analyzes</h6>
+    </mat-expansion-panel-header>
+    <h6>
+      An unregistered user can see all analyzes that match a lake.<br>
+      The graphs correspond to the average of the data from all analyzes of the selected lake.<br>
+      For an authenticated user, it is possible to delete / modify an analysis.<br>
+      The import button allows you to create an analysis.
+    </h6>
+  </mat-expansion-panel>
+</mat-accordion>
+

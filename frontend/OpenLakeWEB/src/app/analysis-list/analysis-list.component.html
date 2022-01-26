@@ -1,0 +1,43 @@
+<div>
+  <nav>
+    <a routerLink="/analysis-list">List</a>&nbsp;
+    <a routerLink="/analysis-add">Add</a>&nbsp;
+  </nav>
+  <h4>Analysis List</h4>
+
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>datenav</th>
+      <th>hournav</th>
+      <th>durationnav</th>
+      <th>drone</th>
+      <th>lake</th>
+    </tr>
+
+    <tr
+    *ngFor="let analysis of analyzes; let i = index"
+    >
+    <td>
+      <a class="badge badge-warning"
+      routerLink="/analysis-details/{{ analysis.id }}"
+      >
+        {{ analysis.id }}
+      </a>
+  </td>
+      <td>
+          {{ analysis.datenav }}
+      </td>
+      <td>{{ analysis.hournav }}</td>
+      <td>{{ analysis.durationnav }}</td>
+      <td>{{ analysis.drone }}</td>
+      <td>{{ analysis.lake }}</td>
+    </tr>
+    <!-- <tr>
+      <td>test</td>
+      <td>test2</td>
+    </tr> -->
+
+  </table>
+
+  </div>

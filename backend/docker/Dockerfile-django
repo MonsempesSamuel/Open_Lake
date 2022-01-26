@@ -1,0 +1,32 @@
+FROM python:3.8
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+        postgresql-client \
+        netcat \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN adduser --disabled-password --gecos "" django --home /home/django
+WORKDIR /home/django
+
+COPY --chown=django ./requirements.txt ./
+RUN python -m venv venv
+RUN ./venv/bin/python -m pip install --upgrade pip
+RUN ./venv/bin/python -m pip install -r requirements.txt
+RUN ./venv/bin/python -m pip install gunicorn
+
+COPY --chown=django ./OpenLakeAPIs/ ./OpenLakeAPIs/
+COPY --chown=django ./docker/entrypoint.sh .
+#???
+# RUN sed -i 's/\r$//g' /home/django/entrypoint.sh 
+RUN chmod +x /home/django/entrypoint.sh
+
+RUN mkdir /home/django/OpenLakeAPIs/staticfiles
+# RUN chown -R django:django /home/django/
+COPY --chown=django ./docker/docker_settings.py ./OpenLakeAPIs/OpenLakeAPIs/settings.py
+
+USER django
+WORKDIR /home/django/OpenLakeAPIs/
+EXPOSE 8000
+ENTRYPOINT ["/home/django/entrypoint.sh"]
+CMD ["/home/django/venv/bin/python", "manage.py", "runserver", "0.0.0.0:8000"]

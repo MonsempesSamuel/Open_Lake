@@ -1,0 +1,86 @@
+
+
+  <div class="modal-header">
+      <h5 class="modal-title" id="exampleModalLabel">Add a data</h5>
+  </div>
+        <div class="submit-form">
+            <div class="form-group">
+              <label for="latgps">Latitude</label>
+                <input
+                type="text"
+                class="form-control"
+                id="latgps"
+                required
+                [(ngModel)]="data.latgps"
+                name="latgps"
+                />
+            </div>
+
+            <div class="form-group">
+              <label for="longgps">Longitude</label>
+                <input
+                type="text"
+                class="form-control"
+                id="longgps"
+                required
+                [(ngModel)]="data.longgps"
+                name="longgps"
+                />
+            </div>
+
+            <div class="form-group">
+              <label for="datatemperature">Temperature</label>
+                <input
+                type="text"
+                class="form-control"
+                id="datatemperature"
+                required
+                [(ngModel)]="data.temperature"
+                name="datatemperature"
+                />
+            </div>
+
+            <div class="form-group">
+              <label for="dataph">PH</label>
+                <input
+                type="text"
+                class="form-control"
+                id="dataph"
+                required
+                [(ngModel)]="data.ph"
+                name="dataph"
+                />
+            </div>
+
+
+
+            <div class="form-group">
+              <label for="dataconductivite">Conductivity</label>
+                <input
+                type="text"
+                class="form-control"
+                id="dataconductivite"
+                required
+                [(ngModel)]="data.conductivity"
+                name="dataconductivite"
+                />
+            </div>
+
+            <div class="form-group">
+              <label for="freqbat">Bathymetry</label>
+                <input
+                type="text"
+                class="form-control"
+                id="freqbat"
+                required
+                [(ngModel)]="data.freqbat"
+                name="freqbat"
+                />
+            </div>
+
+            <div class="modal-footer">
+              <button [mat-dialog-close]="false" class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+              <button (click)="saveData()" [disabled]="!data.latgps||!data.longgps||!data.temperature||!data.ph||!data.conductivity||!data.freqbat" class="btn btn-primary">Submit</button>
+            </div>
+
+        </div>

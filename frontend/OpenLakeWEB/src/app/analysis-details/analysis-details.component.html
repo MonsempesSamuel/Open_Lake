@@ -1,0 +1,92 @@
+<div class="card shadow mb-4">
+  <div class="card-header py-3">
+    <h6 class="m-0 font-weight-bold text-primary"><a routerLink="/lake-details/{{lakeret}}" class="btn btn-primary btn-circle btn-sm"><i class="fas fa-arrow-left"></i></a> Data of the {{ currentAnalysis.datenav }}</h6>
+  </div>
+
+  <div class="card-body">
+
+    <a *ngIf="authService.isAuth" (click)="add_data()" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"> Add a data <i class="fas fa-plus fa-sm text-white-50"></i></a>
+    <br/><br/>
+
+    <div class="table-responsive">
+      <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table table-bordered dataTable" id="dataTable" role="grid" aria-describedby="dataTable_info" style="width: 100%;" width="100%" cellspacing="0">
+              <thead>
+                <tr role="row">
+                  <th>Latitude</th>
+                  <th>Longitude</th>
+                  <th>Temperature</th>
+                  <th>PH</th>
+                  <th>Conductivity</th>
+                  <th>Bathymetry</th>
+                  <th style="width: 33px;" *ngIf="authService.isAdmin">Modify the data</th>
+                  <th style="width: 33px;" *ngIf="authService.isAdmin">Delete the data</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let data of datas; let i = index">
+                  <td *ngIf="data.id!==currentData.id; else datalatgps">{{ data.latgps }}</td>
+                  <ng-template #datalatgps><td><input type="text" class="form-control" [(ngModel)]="currentData.latgps"/></td></ng-template>
+                  <td *ngIf="data.id!==currentData.id; else datalonggps">{{ data.longgps }}</td>
+                  <ng-template #datalonggps><td><input type="text" class="form-control" [(ngModel)]="currentData.longgps"/></td></ng-template>
+                  <td *ngIf="data.id!==currentData.id; else datadatatemperature">{{ data.temperature }}</td>
+                  <ng-template #datadatatemperature><td><input type="text" class="form-control" [(ngModel)]="currentData.temperature"/></td></ng-template>
+                  <td *ngIf="data.id!==currentData.id; else datadataph">{{ data.ph }}</td>
+                  <ng-template #datadataph><td><input type="text" class="form-control" [(ngModel)]="currentData.ph"/></td></ng-template>
+                  <td *ngIf="data.id!==currentData.id; else datadataconductivite">{{ data.conductivity }}</td>
+                  <ng-template #datadataconductivite><td><input type="text" class="form-control" [(ngModel)]="currentData.conductivity"/></td></ng-template>
+                  <td *ngIf="data.id!==currentData.id; else datafreqbat">{{ data.freqbat }}</td>
+                  <ng-template #datafreqbat><td><input type="text" class="form-control" [(ngModel)]="currentData.freqbat"/></td></ng-template>
+
+                  <td *ngIf="authService.isAdmin" class="center">
+                    <a *ngIf="data.id!==currentData.id; else valiCanc" (click)="modify_data(data)" class="btn btn-warning btn-circle btn-lg">
+                      <i class="fas fa-edit"></i>
+                    </a>
+                    <ng-template #valiCanc>
+                      <a (click)="update_data()" class="btn btn-success btn-circle btn-lg">
+                        <i class="fas fa-check"></i>
+                      </a>
+                    </ng-template>
+                  </td>
+                  <td *ngIf="authService.isAdmin" class="center">
+                    <a *ngIf="data.id!==trashid; else trashThis" (click)="delete_data(data.id)" class="btn btn-danger btn-circle btn-lg">
+                      <i class="fas fa-trash"></i>
+                    </a>
+                    <ng-template #trashThis>
+                      <a style="box-shadow: 0px 0px 5px 1px red;" (click)="delete_data(data.id)" class="btn btn-danger btn-circle btn-lg">
+                        <i class="fas fa-trash"></i>
+                      </a>
+                      Sure ?
+                    </ng-template>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-5">
+            <div class="dataTables_info" id="dataTable_info" role="status" aria-live="polite">Showing 1 to
+              <select (change)="change_page(1)" id="page_size"  name="dataTable_length" aria-controls="dataTable" class="custom-select custom-select-sm form-control form-control-sm" [(ngModel)]="page_size">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+              </select> of {{nbelement}} entries</div>
+            </div>
+            <div class="col-sm-12 col-md-7">
+              <div class="dataTables_paginate paging_simple_numbers" id="dataTable_paginate">
+                <ul class="pagination">
+                  <li (click)="change_page(this.page-1)" class="button paginate_button page-item previous" [ngClass]="{disabled: page=='1'}" id="dataTable_previous"><a aria-controls="dataTable" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li>
+                  <li (click)="change_page(nbpage)" *ngFor="let nbpage of nbpages" class="button paginate_button page-item " [ngClass]="{active: nbpage==page}"><a aria-controls="dataTable" data-dt-idx="1" tabindex="0" class="page-link">{{nbpage}}</a></li>
+                  <li (click)="change_page(this.page+1)" class="button paginate_button page-item next" [ngClass]="{disabled: page==nbpages.length}" id="dataTable_next"><a aria-controls="dataTable" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
